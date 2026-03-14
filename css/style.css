@@ -1,0 +1,23 @@
+body{
+font-family:Arial;
+margin:0;
+}
+
+.site-header{
+background:#0a6d83;
+color:white;
+padding:20px;
+}
+
+.site-header nav a{
+color:white;
+margin-right:15px;
+text-decoration:none;
+}
+
+.site-footer{
+background:#222;
+color:white;
+padding:20px;
+text-align:center;
+}
