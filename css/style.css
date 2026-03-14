@@ -106,23 +106,44 @@ padding:15px;
 }
 
 .services{
-background:#f7f7f7;
-padding:80px 20px;
+padding:90px 20px;
 text-align:center;
+background:#f7f9fb;
+}
+
+.services h2{
+font-size:34px;
+margin-bottom:20px;
 }
 
 .service-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:25px;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:30px;
 margin-top:40px;
 }
 
 .service-card{
 background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 3px 8px rgba(0,0,0,0.1);
+padding:35px 25px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+transition:all 0.3s ease;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+box-shadow:0 14px 30px rgba(0,0,0,0.15);
+}
+
+.service-card h3{
+margin-top:10px;
+font-size:20px;
+}
+
+.service-card p{
+color:#666;
+font-size:15px;
 }
 
 .cta-section{
