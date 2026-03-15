@@ -330,3 +330,52 @@ font-size:32px;
 }
 
 }
+
+.contact-page{
+padding:80px 20px;
+}
+
+.contact-page h1{
+text-align:center;
+margin-bottom:10px;
+}
+
+.contact-page p{
+text-align:center;
+margin-bottom:40px;
+}
+
+.contact-form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+padding:12px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:16px;
+}
+
+.contact-form textarea{
+min-height:120px;
+}
+
+.contact-form button{
+background:#ff7b00;
+color:white;
+padding:14px;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+.contact-form button:hover{
+background:#e46c00;
+}
