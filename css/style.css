@@ -61,7 +61,10 @@ font-weight:bold;
 
 .hero{
 height:600px;
-background:url('../images/hero.jpg') center/cover no-repeat;
+background-image:url('../images/hero.jpg');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 position:relative;
 display:flex;
 align-items:center;
