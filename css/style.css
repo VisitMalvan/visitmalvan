@@ -79,18 +79,21 @@ top:0;
 left:0;
 right:0;
 bottom:0;
-background:rgba(0,0,0,0.45);
+background:linear-gradient(
+rgba(0,0,0,0.55),
+rgba(0,0,0,0.35)
+);
 }
 
 .hero-content{
-position:relative;
-z-index:2;
 max-width:700px;
+padding:20px;
 }
 
 .hero h1{
 font-size:52px;
-margin-bottom:10px;
+font-weight:700;
+letter-spacing:1px;
 }
 
 .hero p{
