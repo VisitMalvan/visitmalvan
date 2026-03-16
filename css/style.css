@@ -121,16 +121,18 @@ rgba(0,0,0,0.3)
 }
 
 .hero-content{
-position:relative;
-z-index:2;
-max-width:700px;
+max-width:650px;
+margin:auto;
 padding:20px;
 }
 
 .hero h1{
+line-height:1.2;
 font-size:52px;
-font-weight:700;
-letter-spacing:1px;
+}
+
+.hero-btn{
+margin:8px;
 }
 
 .hero p{
