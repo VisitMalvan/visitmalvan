@@ -121,9 +121,10 @@ rgba(0,0,0,0.3)
 }
 
 .hero-content{
-max-width:650px;
+max-width:600px;
 margin:auto;
 padding:20px;
+text-align:center;
 }
 
 .hero h1{
