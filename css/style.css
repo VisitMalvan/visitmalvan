@@ -136,18 +136,20 @@ padding:20px;
 }
 
 .hero h1{
-max-width:520px;
-margin:auto;
-text-align:center;
-}
-.hero h1{
-white-space:nowrap;
+font-size:52px;
+line-height:1.2;
+margin-bottom:15px;
 }
 .hero p{
 font-size:20px;
-margin-bottom:25px;
+margin:6px 0;
 }
-
+.hero-sub{
+font-size:18px;
+margin-top:10px;
+letter-spacing:1px;
+opacity:0.9;
+}
 .hero-btn{
 background:#ff7b00;
 padding:14px 28px;
@@ -159,7 +161,9 @@ display:inline-block;
 margin:8px;
 transition:all 0.3s ease;
 }
-
+.hero-btn{
+margin:12px 8px;
+}
 .hero-btn:hover{
 background:#e46c00;
 }
@@ -170,12 +174,6 @@ background:#25D366;
 
 .hero-btn.secondary:hover{
 background:#1ebe5d;
-}
-
-.hero-sub{
-font-size:18px;
-opacity:0.9;
-margin-top:5px;
 }
 
 /* TRUST SECTION */
