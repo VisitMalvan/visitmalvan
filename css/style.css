@@ -146,21 +146,61 @@ background:#e46c00;
 
 /* TRUST SECTION */
 
-.trust{
-padding:70px 20px;
-text-align:center;
-background:#f8fafc;
+.about-photo img{
+width:260px;
+height:auto;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+display:block;
+margin:auto;
+}
+.about-smita{
+padding:80px 20px;
+background:#ffffff;
 }
 
-.trust-grid{
+.about-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:20px;
-margin-top:30px;
-max-width:900px;
-margin-left:auto;
-margin-right:auto;
+grid-template-columns:280px 1fr;
+gap:40px;
+align-items:center;
+max-width:1000px;
+margin:auto;
+}
+
+.about-text h2{
+font-size:34px;
+margin-bottom:15px;
+}
+
+.about-text p{
+margin-bottom:12px;
+font-size:16px;
+line-height:1.6;
+}
+
+.trust-points{
+margin-top:15px;
+padding:0;
+list-style:none;
+}
+
+.trust-points li{
+margin-bottom:8px;
 font-weight:500;
+}
+
+@media (max-width:768px){
+
+.about-grid{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.about-photo img{
+margin-bottom:20px;
+}
+
 }
 
 /* DESTINATIONS */
