@@ -455,3 +455,49 @@ cursor:pointer;
 .contact-form button:hover{
 background:#e46c00;
 }
+.enquiry-section{
+background:#f7f9fb;
+padding:80px 20px;
+text-align:center;
+}
+
+.enquiry-section p{
+max-width:600px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.enquiry-form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea{
+padding:12px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:16px;
+}
+
+.enquiry-form textarea{
+min-height:120px;
+}
+
+.enquiry-form button{
+background:#ff7b00;
+color:white;
+padding:14px;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+.enquiry-form button:hover{
+background:#e46c00;
+}
