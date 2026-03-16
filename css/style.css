@@ -12,7 +12,16 @@ width:90%;
 max-width:1200px;
 margin:auto;
 }
-
+section h2{
+font-size:36px;
+text-align:center;
+margin-bottom:20px;
+color:#0a6d83;
+font-weight:600;
+}
+section{
+padding:80px 20px;
+}
 /* HEADER */
 
 .site-header{
@@ -128,20 +137,29 @@ letter-spacing:1px;
 font-size:20px;
 margin-bottom:25px;
 }
-
 .hero-btn{
 background:#ff7b00;
 padding:14px 28px;
 border-radius:6px;
 text-decoration:none;
 color:white;
-font-weight:bold;
+font-weight:600;
 display:inline-block;
 margin:10px;
+transition:all 0.3s ease;
 }
 
 .hero-btn:hover{
 background:#e46c00;
+transform:translateY(-2px);
+}
+
+.hero-btn.secondary{
+background:#25D366;
+}
+
+.hero-btn.secondary:hover{
+background:#1ebe5d;
 }
 
 /* TRUST SECTION */
@@ -218,9 +236,9 @@ margin-top:40px;
 }
 
 .destination-card{
-border-radius:10px;
+border-radius:12px;
 overflow:hidden;
-box-shadow:0 4px 12px rgba(0,0,0,0.1);
+box-shadow:0 6px 18px rgba(0,0,0,0.12);
 background:white;
 transition:transform 0.3s ease;
 }
@@ -271,8 +289,8 @@ transition:all 0.3s ease;
 }
 
 .service-card:hover{
-transform:translateY(-8px);
-box-shadow:0 14px 30px rgba(0,0,0,0.15);
+transform:translateY(-6px);
+box-shadow:0 12px 28px rgba(0,0,0,0.15);
 }
 
 .service-card h3{
@@ -307,9 +325,9 @@ margin-top:40px;
 
 .exp-card{
 background:white;
-border-radius:10px;
+border-radius:12px;
 overflow:hidden;
-box-shadow:0 4px 12px rgba(0,0,0,0.1);
+box-shadow:0 6px 18px rgba(0,0,0,0.12);
 transition:transform 0.3s ease;
 }
 
@@ -346,13 +364,13 @@ margin-bottom:20px;
 .site-footer{
 background:#111;
 color:white;
-padding:40px 20px;
+padding:60px 20px;
+text-align:center;
 }
 
-.footer-section{
-margin-bottom:20px;
+.site-footer p{
+margin:8px 0;
 }
-
 .copyright{
 text-align:center;
 margin-top:20px;
