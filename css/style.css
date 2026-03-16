@@ -136,11 +136,9 @@ padding:20px;
 }
 
 .hero h1{
-font-size:48px;
-line-height:1.2;
-margin-bottom:15px;
+max-width:520px;
+margin:auto;
 }
-
 .hero p{
 font-size:20px;
 margin-bottom:25px;
