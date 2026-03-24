@@ -700,7 +700,15 @@ font-size:26px;
 cursor:pointer;
 }
 
-/* Mobile styles */
+/* Default (Desktop) */
+
+.menu-toggle{
+display:none;
+font-size:28px;
+cursor:pointer;
+}
+
+/* Mobile only */
 
 @media (max-width:768px){
 
@@ -710,11 +718,7 @@ position:absolute;
 right:20px;
 top:18px;
 }
-}
-.menu-toggle{
-display:block;
-font-size:28px;
-cursor:pointer;
+
 }
 
 .nav{
