@@ -710,6 +710,10 @@ position:absolute;
 right:20px;
 top:18px;
 }
+  .menu-toggle{
+font-size:30px;
+font-weight:bold;
+}
 
 .nav{
 max-height:0;
