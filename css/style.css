@@ -44,7 +44,10 @@ font-weight:bold;
 text-decoration:none;
 color:#0a6d83;
 }
-
+.logo img{
+height:48px;
+width:auto;
+}
 .nav a{
 margin:0 12px;
 text-decoration:none;
