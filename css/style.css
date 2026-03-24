@@ -692,3 +692,49 @@ gap:10px;
 }
 
 }
+/* Hamburger button */
+
+.menu-toggle{
+display:none;
+font-size:26px;
+cursor:pointer;
+}
+
+/* Mobile styles */
+
+@media (max-width:768px){
+
+.menu-toggle{
+display:block;
+position:absolute;
+right:20px;
+top:18px;
+}
+
+.nav{
+display:none;
+flex-direction:column;
+width:100%;
+background:white;
+padding:10px 0;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nav a{
+display:block;
+padding:10px;
+text-align:center;
+border-top:1px solid #eee;
+}
+
+.header-buttons{
+display:none;
+}
+
+.site-header .container{
+position:relative;
+flex-direction:column;
+align-items:flex-start;
+}
+
+}
