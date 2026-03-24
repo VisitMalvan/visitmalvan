@@ -754,3 +754,38 @@ font-size:20px;
 }
 
 }
+/* ===== SAFE HEADER ENHANCEMENTS ===== */
+
+/* Add subtle shadow only if not already defined */
+
+.site-header{
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* Improve spacing without changing layout */
+
+.nav{
+gap:18px;
+}
+
+/* Smooth hover color */
+
+.nav a{
+transition:color 0.3s ease;
+}
+
+/* Add underline hover effect safely */
+
+.nav a:hover{
+color:#0a6d83;
+}
+
+/* Button improvement without changing size */
+
+.cta-btn{
+transition:all 0.3s ease;
+}
+
+.cta-btn:hover{
+transform:translateY(-2px);
+}
