@@ -711,9 +711,10 @@ right:20px;
 top:18px;
 }
 }
-  .menu-toggle{
-font-size:30px;
-font-weight:bold;
+.menu-toggle{
+display:block;
+font-size:28px;
+cursor:pointer;
 }
 
 .nav{
