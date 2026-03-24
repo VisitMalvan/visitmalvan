@@ -11,10 +11,13 @@ async function loadIncludes() {
 loadIncludes();
 function toggleMenu() {
   var menu = document.getElementById("mobileMenu");
-
-  if (menu.classList.contains("active")) {
-    menu.classList.remove("active");
-  } else {
-    menu.classList.add("active");
-  }
+  menu.classList.toggle("active");
 }
+
+/* NEW: close menu when a link is clicked */
+
+document.querySelectorAll("#mobileMenu a").forEach(function(link) {
+  link.addEventListener("click", function() {
+    document.getElementById("mobileMenu").classList.remove("active");
+  });
+});
