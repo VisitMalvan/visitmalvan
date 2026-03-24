@@ -12,9 +12,9 @@ loadIncludes();
 function toggleMenu() {
   var menu = document.getElementById("mobileMenu");
 
-  if (menu.style.display === "block") {
-    menu.style.display = "none";
+  if (menu.classList.contains("active")) {
+    menu.classList.remove("active");
   } else {
-    menu.style.display = "block";
+    menu.classList.add("active");
   }
 }
