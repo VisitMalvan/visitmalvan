@@ -792,44 +792,60 @@ transition:all 0.3s ease;
 .cta-btn:hover{
 transform:translateY(-2px);
 }
-/* WHY CHOOSE SECTION */
+/* EXPERT SECTION (MERGED TRUST + VALUE) */
 
-.why-choose{
-background:#f7f9fb;
-text-align:center;
+.expert-section{
+background:#ffffff;
 padding:80px 20px;
 }
 
-.why-grid{
+.expert-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-margin-top:35px;
+grid-template-columns:280px 1fr;
+gap:40px;
+align-items:center;
 max-width:1000px;
-margin-left:auto;
-margin-right:auto;
+margin:auto;
 }
 
-.why-card{
-background:white;
-padding:25px;
+.expert-photo img{
+width:260px;
 border-radius:12px;
-box-shadow:0 6px 18px rgba(0,0,0,0.08);
-transition:all 0.3s ease;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+display:block;
+margin:auto;
 }
 
-.why-card:hover{
-transform:translateY(-6px);
-box-shadow:0 12px 28px rgba(0,0,0,0.15);
+.expert-content h2{
+margin-bottom:15px;
+font-size:34px;
 }
 
-.why-card h3{
-margin-bottom:10px;
-font-size:20px;
-color:#0a6d83;
+.expert-content p{
+font-size:16px;
+line-height:1.6;
+margin-bottom:20px;
 }
 
-.why-card p{
-font-size:15px;
-color:#555;
+.expert-points{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:12px;
+font-weight:500;
+color:#333;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.expert-grid{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.expert-photo img{
+margin-bottom:20px;
+}
+
 }
