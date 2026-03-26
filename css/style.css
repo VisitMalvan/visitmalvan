@@ -898,10 +898,31 @@ color:#0a6d83;
 font-size:14px;
 color:#666;
 }
+/* PREMIUM ONE-LINE TRUST BAR */
+
 .trust-line{
-background:#0a6d83;
+background:linear-gradient(90deg,#0a6d83,#128aa3);
 color:white;
-padding:20px;
+padding:18px 10px;
 text-align:center;
-font-weight:500;
+font-weight:600;
+letter-spacing:0.5px;
+font-size:16px;
+box-shadow:0 -2px 10px rgba(0,0,0,0.08);
+}
+
+.trust-line p{
+margin:0;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.trust-line{
+font-size:14px;
+line-height:1.5;
+padding:14px 10px;
+}
+
 }
