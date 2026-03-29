@@ -236,31 +236,41 @@ were arranged perfectly.
 </div>
 
 </section>
-  <section class="enquiry-section">
+<section class="enquiry-section">
 
 <div class="container">
 
 <h2>Plan Your Malvan Trip</h2>
 
 <p class="enquiry-intro">
-Fill the form below and Smita Hatle will contact you to help plan your Malvan trip.
+Fill the form below and Smita Hatle will contact you shortly to help plan your trip.
 </p>
 
 <form class="enquiry-form">
 
-<input type="text" placeholder="Your Name" required>
+<div class="form-row">
 
-<input type="tel" placeholder="Phone / WhatsApp" required>
+<input type="text"
+placeholder="Your Name"
+required>
 
-<select>
-<option>Destination</option>
+<input type="tel"
+placeholder="Phone / WhatsApp"
+required>
+
+</div>
+
+<div class="form-row">
+
+<select required>
+<option value="">Select Destination</option>
 <option>Malvan</option>
 <option>Tarkarli</option>
 <option>Devbagh</option>
 </select>
 
-<select>
-<option>Service Required</option>
+<select required>
+<option value="">Service Required</option>
 <option>Hotel / Homestay</option>
 <option>Tour Package</option>
 <option>Water Sports</option>
@@ -268,9 +278,18 @@ Fill the form below and Smita Hatle will contact you to help plan your Malvan tr
 <option>Destination Wedding</option>
 </select>
 
-<textarea placeholder="Tell us about your trip"></textarea>
+</div>
 
-<button type="submit">Send Enquiry</button>
+<input type="date" required>
+
+<textarea
+placeholder="Tell us about your trip"
+required>
+</textarea>
+
+<button type="submit">
+Send Enquiry
+</button>
 
 </form>
 
