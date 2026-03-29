@@ -289,7 +289,11 @@ overflow:hidden;
 box-shadow:0 6px 18px rgba(0,0,0,0.12);
 transition:all 0.3s ease;
 }
-
+.destination-card,
+.service-card,
+.exp-card{
+cursor:pointer;
+}
 .destination-card:hover{
 transform:translateY(-6px);
 }
