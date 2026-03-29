@@ -246,30 +246,35 @@ were arranged perfectly.
 Fill the form below and Smita Hatle will contact you shortly to help plan your trip.
 </p>
 
-<form class="enquiry-form">
+<form
+class="enquiry-form"
+action="https://formspree.io/f/mvzvkknq"
+method="POST">
 
-<div class="form-row">
+<input type="hidden"
+name="_subject"
+value="New Enquiry from VisitMalvan Website">
 
-<input type="text"
+<input
+type="text"
+name="name"
 placeholder="Your Name"
 required>
 
-<input type="tel"
+<input
+type="tel"
+name="phone"
 placeholder="Phone / WhatsApp"
 required>
 
-</div>
-
-<div class="form-row">
-
-<select required>
+<select name="destination" required>
 <option value="">Select Destination</option>
 <option>Malvan</option>
 <option>Tarkarli</option>
 <option>Devbagh</option>
 </select>
 
-<select required>
+<select name="service" required>
 <option value="">Service Required</option>
 <option>Hotel / Homestay</option>
 <option>Tour Package</option>
@@ -278,11 +283,8 @@ required>
 <option>Destination Wedding</option>
 </select>
 
-</div>
-
-<input type="date" required>
-
 <textarea
+name="message"
 placeholder="Tell us about your trip"
 required>
 </textarea>
