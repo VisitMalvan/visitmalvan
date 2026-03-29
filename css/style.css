@@ -538,6 +538,74 @@ margin-bottom:25px;
 font-size:16px;
 color:#555;
 }
+/* PREMIUM ENQUIRY FORM */
+
+.enquiry-form{
+max-width:700px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:16px;
+}
+
+.form-row{
+display:flex;
+gap:15px;
+}
+
+.form-row input,
+.form-row select{
+flex:1;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea{
+padding:14px;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:16px;
+transition:all 0.2s ease;
+}
+
+.enquiry-form input:focus,
+.enquiry-form select:focus,
+.enquiry-form textarea:focus{
+border-color:#0a6d83;
+outline:none;
+box-shadow:0 0 0 2px rgba(10,109,131,0.1);
+}
+
+.enquiry-form textarea{
+min-height:130px;
+}
+
+.enquiry-form button{
+background:#ff7b00;
+color:white;
+padding:15px;
+border:none;
+border-radius:8px;
+font-size:17px;
+font-weight:600;
+cursor:pointer;
+transition:all 0.3s ease;
+}
+
+.enquiry-form button:hover{
+background:#e46c00;
+transform:translateY(-2px);
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+.form-row{
+flex-direction:column;
+}
+
+}
 /* ---------------- EXISTING CSS ABOVE ---------------- */
 
 
