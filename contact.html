@@ -17,56 +17,105 @@
 <div id="header"></div>
 
 
-<section class="contact-page">
+<section class="contact-section">
 
 <div class="container">
 
-<h1>Plan Your Malvan Trip</h1>
+<h1>Contact Us</h1>
 
-<p>
-Tell us about your trip and Smita Hatle will help you plan
-the best stay and experiences in Malvan, Tarkarli or Devbagh.
+<p class="contact-intro">
+Have questions about your Malvan trip?  
+Fill the form below or contact us on WhatsApp.
 </p>
 
-<form class="contact-form">
+<form
+class="enquiry-form"
+action="https://formspree.io/f/YOUR_FORM_ID"
+method="POST">
 
-<input type="text" placeholder="Your Name" required>
+<input
+type="hidden"
+name="_subject"
+value="New Enquiry from VisitMalvan Contact Page">
 
-<input type="tel" placeholder="Phone / WhatsApp" required>
+<!-- Name + Phone -->
 
-<label>Travel Date</label>
-<input type="date">
+<div class="form-row">
 
-<label>Number of Guests</label>
-<input type="number" min="1" placeholder="Guests">
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required>
 
-<label>Destination</label>
-<select>
+<input
+type="tel"
+name="phone"
+placeholder="Phone / WhatsApp"
+required>
+
+</div>
+
+<!-- Destination + Service -->
+
+<div class="form-row">
+
+<select name="destination" required>
+
+<option value="">Select Destination</option>
+
 <option>Malvan</option>
 <option>Tarkarli</option>
 <option>Devbagh</option>
+
 </select>
 
-<label>Service Required</label>
-<select>
+<select name="service" required>
+
+<option value="">Service Required</option>
+
 <option>Hotel / Homestay</option>
 <option>Tour Package</option>
 <option>Water Sports</option>
 <option>Dolphin Safari</option>
-<option>Destination Wedding</option>
 <option>Local Sightseeing</option>
+<option>Destination Wedding</option>
+
 </select>
 
-<label>Budget Range</label>
-<select>
-<option>Budget</option>
-<option>Standard</option>
-<option>Luxury</option>
-</select>
+</div>
 
-<textarea placeholder="Tell us about your trip"></textarea>
+<!-- Travel Date -->
 
-<button type="submit">Send Enquiry</button>
+<label>Travel Date</label>
+
+<input
+type="date"
+name="travel_date"
+required>
+
+<!-- Number of Persons -->
+
+<input
+type="number"
+name="persons"
+placeholder="Number of Persons"
+min="1"
+required>
+
+<!-- Message -->
+
+<textarea
+name="message"
+placeholder="Tell us about your trip"
+required>
+</textarea>
+
+<!-- Submit -->
+
+<button type="submit">
+Send Enquiry
+</button>
 
 </form>
 
