@@ -248,12 +248,19 @@ Fill the form below and Smita Hatle will contact you shortly to help plan your t
 
 <form
 class="enquiry-form"
-action="https://formspree.io/f/mvzvkknq"
+action="https://formspree.io/f/YOUR_FORM_ID"
 method="POST">
 
-<input type="hidden"
+<!-- Subject for email -->
+
+<input
+type="hidden"
 name="_subject"
 value="New Enquiry from VisitMalvan Website">
+
+<!-- Name + Phone -->
+
+<div class="form-row">
 
 <input
 type="text"
@@ -267,27 +274,64 @@ name="phone"
 placeholder="Phone / WhatsApp"
 required>
 
+</div>
+
+<!-- Destination + Service -->
+
+<div class="form-row">
+
 <select name="destination" required>
+
 <option value="">Select Destination</option>
+
 <option>Malvan</option>
 <option>Tarkarli</option>
 <option>Devbagh</option>
+
 </select>
 
 <select name="service" required>
+
 <option value="">Service Required</option>
+
 <option>Hotel / Homestay</option>
 <option>Tour Package</option>
 <option>Water Sports</option>
 <option>Dolphin Safari</option>
+<option>Local Sightseeing</option>
 <option>Destination Wedding</option>
+
 </select>
+
+</div>
+
+<!-- Travel Date -->
+
+<label>Travel Date</label>
+
+<input
+type="date"
+name="travel_date"
+required>
+
+<!-- Number of Persons -->
+
+<input
+type="number"
+name="persons"
+placeholder="Number of Persons"
+min="1"
+required>
+
+<!-- Message -->
 
 <textarea
 name="message"
 placeholder="Tell us about your trip"
 required>
 </textarea>
+
+<!-- Submit Button -->
 
 <button type="submit">
 Send Enquiry
