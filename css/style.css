@@ -463,3 +463,43 @@ justify-content:center;
 }
 
 }
+/* RESTORE SECTION ALIGNMENT */
+
+.destinations,
+.services,
+.experiences,
+.testimonials{
+text-align:center;
+}
+
+/* RESTORE IMAGE SIZE */
+
+.destination-card img,
+.exp-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+/* RESTORE SERVICE CARD PADDING */
+
+.service-card{
+padding:35px 25px;
+}
+
+/* RESTORE ABOUT GRID */
+
+.about-grid{
+display:grid;
+grid-template-columns:280px 1fr;
+gap:40px;
+align-items:center;
+}
+
+/* RESTORE CONTAINER SPACING */
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
