@@ -184,7 +184,7 @@ opacity:0.9;
 }
 .hero-btn{
 background:#ff7b00;
-padding:14px 28px;
+padding:14px 28px;f
 border-radius:6px;
 text-decoration:none;
 color:white;
@@ -692,25 +692,7 @@ font-size:14px;
 }
 
 }
-@media (max-width:768px){
 
-.destination-grid{
-grid-template-columns:1fr;
-}
-
-}
-@media (max-width:768px){
-
-.service-grid{
-grid-template-columns:1fr;
-}
-
-}
-@media (max-width:768px){
-
-.experience-grid{
-grid-template-columns:1fr;
-}
 
 }
 @media (max-width:768px){
@@ -1120,4 +1102,13 @@ gap:22px;
 
 .site-header{
 box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+@media (max-width:768px){
+
+.destination-grid,
+.service-grid,
+.experience-grid{
+grid-template-columns:1fr;
+}
+
 }
