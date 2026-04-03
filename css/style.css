@@ -1112,3 +1112,31 @@ grid-template-columns:1fr;
 }
 
 }
+/* INNER PAGE HERO */
+
+.inner-hero{
+background:url('/images/malvan-beach.jpg') center/cover no-repeat;
+color:white;
+text-align:center;
+padding:120px 20px;
+position:relative;
+}
+
+.inner-hero-overlay{
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:rgba(0,0,0,0.55);
+}
+
+.inner-hero .container{
+position:relative;
+z-index:2;
+}
+
+.inner-hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
