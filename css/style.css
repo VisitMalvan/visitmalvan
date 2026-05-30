@@ -8,14 +8,22 @@ color:#333;
 }
 
 .container{
-width:90%;
-max-width:1200px;
+max-width:1300px;
 margin:auto;
+padding:0 20px;
 }
 section{
 padding:80px 20px;
 }
+h2{
+font-size:42px;
+font-weight:700;
+}
 
+h3{
+font-size:24px;
+font-weight:600;
+}
 section h2{
 font-size:34px;
 text-align:center;
