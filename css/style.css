@@ -858,48 +858,32 @@ transform:translateY(-2px);
 /* EXPERT SECTION (MERGED TRUST + VALUE) */
 
 .expert-section{
-background:#ffffff;
-padding:80px 20px;
+    max-width:1200px;
+    margin:80px auto;
+    display:flex;
+    align-items:center;
+    gap:50px;
+    padding:0 20px;
 }
 
-.expert-grid{
-display:grid;
-grid-template-columns:280px 1fr;
-gap:40px;
-align-items:center;
-max-width:1000px;
-margin:auto;
-}
 .expert-photo{
-    width:280px;
-    border-radius:20px;
+    flex:0 0 350px;
 }
+
 .expert-photo img{
-box-shadow:0 8px 20px rgba(0,0,0,0.15);
-display:block;
-margin:auto;
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
-.expert-section h2{
-    font-size:38px;
-    margin-bottom:20px;
+
+.expert-content{
+    flex:1;
 }
+
 .expert-content h2{
-margin-bottom:15px;
-font-size:34px;
-}
-
-.expert-content p{
-font-size:16px;
-line-height:1.6;
-margin-bottom:20px;
-}
-
-.expert-points{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:12px;
-font-weight:500;
-color:#333;
+    font-size:42px;
+    margin-bottom:20px;
+    color:#006b8f;
 }
 
 /* Mobile */
