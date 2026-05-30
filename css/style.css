@@ -1391,3 +1391,40 @@ margin:0 auto;
 max-width:1400px;
 margin:auto;
 }
+/* Header Buttons */
+
+.header-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    height:46px;
+    padding:0 24px;
+    border-radius:6px;
+    font-weight:600;
+    font-size:15px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.whatsapp-header{
+    background:#25D366;
+    color:#fff;
+}
+
+.whatsapp-header:hover{
+    background:#1EBE5D;
+}
+
+.plantrip-header{
+    background:#ff7a00;
+    color:#fff;
+}
+
+.plantrip-header:hover{
+    background:#e86d00;
+}
+
+.whatsapp-header i{
+    margin-right:8px;
+    font-size:18px;
+}
