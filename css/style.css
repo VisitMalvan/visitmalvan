@@ -870,15 +870,19 @@ align-items:center;
 max-width:1000px;
 margin:auto;
 }
-
+.expert-photo{
+    width:280px;
+    border-radius:20px;
+}
 .expert-photo img{
-width:260px;
-border-radius:12px;
 box-shadow:0 8px 20px rgba(0,0,0,0.15);
 display:block;
 margin:auto;
 }
-
+.expert-section h2{
+    font-size:38px;
+    margin-bottom:20px;
+}
 .expert-content h2{
 margin-bottom:15px;
 font-size:34px;
