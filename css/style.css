@@ -327,36 +327,49 @@ margin:0;
 /* SERVICES */
 
 .service-grid{
-    max-width:1200px;
-    margin:0 auto;
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(4,1fr);
     gap:25px;
+    max-width:1200px;
+    margin:40px auto 0;
 }
 
 .service-card{
     background:#fff;
     border-radius:20px;
-    padding:35px 25px;
-    min-height:140px;
+    padding:30px 25px;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.3s;
     text-align:center;
+    min-height:180px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    transition:.3s;
 }
 
 .service-card:hover{
     transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
 }
 
 .service-card h3{
     font-size:22px;
-    line-height:1.5;
+    margin-bottom:12px;
 }
+
 .service-card p{
-    margin-top:12px;
-    color:#666;
     font-size:15px;
-    line-height:1.7;
+    color:#666;
+    line-height:1.6;
+    margin:0;
+}
+
+@media(max-width:768px){
+
+.service-grid{
+    grid-template-columns:1fr;
+}
+
 }
 
 /* EXPERIENCES */
