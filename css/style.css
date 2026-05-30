@@ -920,11 +920,15 @@ margin-top:40px;
 }
 
 .testimonial-card{
-background:#f7f9fb;
-padding:25px;
-border-radius:12px;
-box-shadow:0 6px 18px rgba(0,0,0,0.08);
-transition:all 0.3s ease;
+background:#fff;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.testimonial-author{
+font-weight:700;
+margin-top:20px;
 }
 
 .testimonial-card:hover{
