@@ -1311,3 +1311,12 @@ grid-template-columns:repeat(2,1fr);
 }
 
 }
+.features-grid{
+max-width:1200px;
+margin:0 auto;
+}
+
+.why-choose-us{
+max-width:1400px;
+margin:auto;
+}
