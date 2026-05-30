@@ -141,8 +141,14 @@ text-align:center;
 color:white;
 }
 .hero-highlight{
-    display:block;
-    color:#ffb347;
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 20px;
+    background:rgba(255,122,0,0.9);
+    color:#fff;
+    border-radius:50px;
+    font-size:28px;
+    font-weight:700;
 }
 }
 .hero-overlay{
