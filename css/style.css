@@ -1453,3 +1453,30 @@ margin:auto;
     margin-right:8px;
     font-size:18px;
 }
+.hotel-hero{
+background:url('../images/hotel-hero.jpg') center/cover no-repeat;
+min-height:500px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:#fff;
+position:relative;
+}
+
+.hotel-hero .container{
+position:relative;
+z-index:2;
+}
+
+.hotel-hero h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.hotel-hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+margin-bottom:25px;
+}
