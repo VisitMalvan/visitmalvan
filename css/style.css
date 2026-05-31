@@ -1480,3 +1480,28 @@ max-width:700px;
 margin:auto;
 margin-bottom:25px;
 }
+.hotel-intro{
+    padding:80px 20px;
+    background:#fff;
+    text-align:center;
+}
+
+.hotel-intro h2{
+    color:#0a6d83;
+    margin-bottom:25px;
+}
+
+.intro-text{
+    max-width:900px;
+    margin:0 auto 20px;
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+}
+.accommodation-types img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    margin-bottom:15px;
+}
