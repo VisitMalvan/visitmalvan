@@ -223,7 +223,19 @@ background:#25D366;
 .hero-btn.secondary:hover{
 background:#1ebe5d;
 }
+.hero-services{
+    margin:25px 0;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    color:#fff;
+    font-weight:600;
+}
 
+.hero-services span{
+    text-shadow:0 2px 8px rgba(0,0,0,.6);
+}
 /* TRUST SECTION */
 
 .about-photo img{
