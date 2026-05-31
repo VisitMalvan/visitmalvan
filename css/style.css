@@ -148,11 +148,17 @@ color:white;
     text-shadow:0 4px 12px rgba(0,0,0,.6);
 }
 }
+.hero{
+    position:relative;
+}
+
 .hero-overlay{
-background:linear-gradient(
-rgba(0,0,0,0.72),
-rgba(0,0,0,0.55)
-);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,.35);
 }
 .hero h1,
 .hero p,
