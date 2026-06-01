@@ -1644,3 +1644,46 @@ background:#fff;
 .package-content h3{
     margin-top:0;
 }
+/* TOUR PACKAGE INCLUSIONS */
+
+.package-includes{
+    padding:80px 20px;
+    background:#f7f9fb;
+}
+
+.package-includes h2{
+    text-align:center;
+    color:#0a6d83;
+    margin-bottom:50px;
+    font-size:38px;
+}
+
+.includes-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.include-card{
+    background:#ffffff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.include-card:hover{
+    transform:translateY(-5px);
+}
+
+.include-card h3{
+    color:#0a6d83;
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.include-card p{
+    color:#555;
+    line-height:1.7;
+}
