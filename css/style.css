@@ -1725,3 +1725,63 @@ background:#fff;
     gap:15px;
     flex-wrap:wrap;
 }
+.things-hero{
+    background:url('../images/malvan-beach.jpg') center center/cover no-repeat;
+    height:550px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.things-hero h1{
+    color:#fff;
+    font-size:58px;
+    margin-bottom:20px;
+}
+
+.things-hero p{
+    color:#fff;
+    font-size:22px;
+    max-width:800px;
+    margin:0 auto 30px;
+    line-height:1.6;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.page-intro{
+    padding:90px 20px;
+    text-align:center;
+}
+
+.page-intro .container{
+    max-width:900px;
+    margin:auto;
+}
+
+.page-intro h2{
+    color:#0a6d83;
+    font-size:48px;
+    margin-bottom:25px;
+}
+
+.page-intro p{
+    color:#555;
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+.activity-card{
+    transition:all .3s ease;
+}
+
+.activity-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
