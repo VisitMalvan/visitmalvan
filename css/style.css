@@ -1634,3 +1634,6 @@ background:#fff;
     transform:translateY(-10px);
     box-shadow:0 15px 35px rgba(0,0,0,.15);
 }
+.package-badge.popular{
+    background:#ff7a00;
+}
