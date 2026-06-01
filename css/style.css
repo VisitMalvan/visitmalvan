@@ -1624,8 +1624,15 @@ background:#fff;
 }
 .package-badge{
     display:inline-block;
-    width:auto;
+    background:#0a6d83;
+    color:#fff;
     padding:8px 16px;
+    border-radius:25px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:15px;
+    line-height:1;
+    width:auto;
 }
 .featured-package{
     border:2px solid #ff7a00;
