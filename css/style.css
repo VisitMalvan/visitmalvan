@@ -1627,7 +1627,7 @@ background:#fff;
     border-radius:20px;
     font-size:12px;
     font-weight:600;
-    margin-bottom:15px;
+    margin-bottom:12px;
     letter-spacing:0.5px;
 }
 .featured-package{
@@ -1637,4 +1637,7 @@ background:#fff;
 }
 .package-badge.popular{
     background:#ff7a00;
+}
+.package-content h3{
+    margin-top:0;
 }
