@@ -1533,3 +1533,40 @@ margin-bottom:25px;
     gap:15px;
     flex-wrap:wrap;
 }
+/* TOUR PACKAGE HERO */
+
+.package-hero{
+background:url('../images/package-hero.jpg') center/cover no-repeat;
+min-height:500px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:#fff;
+position:relative;
+}
+
+.package-hero .container{
+position:relative;
+z-index:2;
+}
+
+.package-hero h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.package-hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+margin-bottom:25px;
+}
+
+/* INTRO */
+
+.package-intro{
+padding:60px 20px;
+text-align:center;
+background:#fff;
+}
