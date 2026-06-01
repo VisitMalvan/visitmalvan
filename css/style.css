@@ -1602,6 +1602,9 @@ background:#fff;
 
 .package-content{
     padding:25px;
+    display:flex;
+    flex-direction:column;
+    height:100%;
 }
 
 .price{
@@ -1627,7 +1630,7 @@ background:#fff;
     border-radius:20px;
     font-size:12px;
     font-weight:600;
-    margin-bottom:12px;
+    margin-bottom:20px;
     letter-spacing:0.5px;
 }
 .featured-package{
