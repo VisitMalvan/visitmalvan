@@ -1798,3 +1798,6 @@ background:#fff;
     margin:0 auto 50px;
     font-size:18px;
 }
+.nav-menu a.active{
+    color:#ff7a00;
+}
