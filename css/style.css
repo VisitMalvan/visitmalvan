@@ -1254,8 +1254,9 @@ margin-bottom:10px;
     text-align: center;
     max-width: 700px;
     margin: 0 auto 50px;
-    color: #64748b;
     font-size: 18px;
+    color:#666;
+    margin-bottom:20px;
 }
 
 .features-grid {
