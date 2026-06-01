@@ -1785,3 +1785,13 @@ background:#fff;
     transform:translateY(-10px);
     box-shadow:0 15px 35px rgba(0,0,0,.15);
 }
+.things-hero .container{
+    max-width:900px;
+}
+.section-subtitle{
+    text-align:center;
+    color:#666;
+    max-width:700px;
+    margin:0 auto 50px;
+    font-size:18px;
+}
