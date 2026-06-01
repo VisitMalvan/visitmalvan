@@ -486,12 +486,14 @@ margin:0;
 .cta-section{
 background:#0a6d83;
 color:white;
-padding:80px 20px;
+padding:100px 20px;
 text-align:center;
 }
 
 .cta-section h2{
-margin-bottom:20px;
+    color:#fff;
+    font-size:42px;
+    margin-bottom:20px;
 }
 
 /* FOOTER */
