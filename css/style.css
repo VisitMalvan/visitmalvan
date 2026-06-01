@@ -1619,3 +1619,14 @@ background:#fff;
 .package-content li{
     margin-bottom:10px;
 }
+.package-badge{
+    display:inline-block;
+    background:#0a6d83;
+    color:#fff;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+    margin-bottom:15px;
+    letter-spacing:0.5px;
+}
