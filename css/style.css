@@ -1622,25 +1622,37 @@ background:#fff;
 .package-content li{
     margin-bottom:10px;
 }
+/* PACKAGE BADGES */
+
 .package-badge{
-    display:inline-block;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
     background:#0a6d83;
-    color:#fff;
+    color:#ffffff;
     padding:8px 16px;
-    border-radius:25px;
+    border-radius:30px;
     font-size:13px;
     font-weight:600;
-    margin-bottom:15px;
     line-height:1;
+    margin-bottom:18px;
     width:auto;
+    max-width:max-content;
 }
-.featured-package{
-    border:2px solid #ff7a00;
-    box-shadow:0 12px 30px rgba(0,0,0,.12);
-}
+
 .package-badge.popular{
     background:#ff7a00;
 }
+
+/* FEATURED PACKAGE */
+
+.featured-package{
+    border:2px solid #ff7a00;
+    box-shadow:0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* PACKAGE TITLE */
+
 .package-content h3{
     margin-top:0;
 }
