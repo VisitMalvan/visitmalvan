@@ -1701,4 +1701,27 @@ background:#fff;
 .include-card p{
     color:#555;
     line-height:1.7;
+}.tour-cta{
+    padding:70px 20px;
+    text-align:center;
+    background:#ffffff;
+}
+
+.tour-cta h2{
+    color:#0a6d83;
+    margin-bottom:15px;
+}
+
+.tour-cta p{
+    max-width:700px;
+    margin:0 auto 30px;
+    line-height:1.8;
+    color:#555;
+}
+
+.cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
 }
