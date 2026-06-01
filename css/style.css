@@ -1689,10 +1689,13 @@ background:#fff;
     transform:translateY(-5px);
 }
 
-.include-card h3{
-    color:#0a6d83;
+.package-content h3{
+    margin-top:0;
     margin-bottom:15px;
-    font-size:22px;
+}
+
+.price{
+    margin:10px 0 20px;
 }
 
 .include-card p{
