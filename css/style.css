@@ -1911,3 +1911,42 @@ background:#fff;
     color:#0a6d83;
     margin-bottom:15px;
 }
+/* MALVAN HERO */
+
+.malvan-hero{
+    background:url('../images/malvan.jpg') center center/cover no-repeat;
+    height:650px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.malvan-hero h1{
+    color:#fff;
+    font-size:58px;
+    margin-bottom:20px;
+}
+
+.malvan-hero p{
+    color:#fff;
+    font-size:22px;
+    max-width:850px;
+    margin:0 auto 30px;
+    line-height:1.6;
+}
+.gallery-card{
+    position:relative;
+}
+
+.gallery-caption{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,.55);
+    color:#fff;
+    padding:15px;
+    font-weight:600;
+}
