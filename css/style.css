@@ -1892,3 +1892,22 @@ background:#fff;
 .gallery-card:hover img{
     transform:scale(1.05);
 }
+.features-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    margin-top:50px;
+}
+
+.feature-card{
+    background:#fff;
+    padding:35px 25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.feature-card h3{
+    color:#0a6d83;
+    margin-bottom:15px;
+}
