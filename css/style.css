@@ -2042,3 +2042,16 @@ background:#fff;
     line-height:1.8;
     max-width:750px;
 }
+.intro-section{
+    padding:100px 20px;
+    text-align:center;
+    background:#fff;
+}
+
+.section-description{
+    max-width:850px;
+    margin:0 auto 20px;
+    line-height:1.9;
+    color:#666;
+    font-size:18px;
+}
