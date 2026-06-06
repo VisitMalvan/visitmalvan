@@ -2191,3 +2191,15 @@ background:#fff;
     margin:0 auto 30px;
     opacity:.9;
 }
+.attraction-card img{
+    height:280px;
+    object-fit:cover;
+}
+.attraction-card{
+    transition:all .3s ease;
+}
+
+.attraction-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
