@@ -2169,3 +2169,25 @@ background:#fff;
         grid-template-columns:1fr;
     }
 }
+.why-us-section{
+    padding:100px 20px;
+    background:#fff;
+}
+
+.cta-section{
+    padding:100px 20px;
+    background:#0a6d83;
+    color:#fff;
+    text-align:center;
+}
+
+.cta-section h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.cta-section p{
+    max-width:700px;
+    margin:0 auto 30px;
+    opacity:.9;
+}
