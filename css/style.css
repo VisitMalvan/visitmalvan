@@ -2006,7 +2006,7 @@ background:#fff;
     }
 }
 .tarkarli-hero{
-    background:url('images/Tarkarli-Beach.jpg') center center/cover;
+    background:url('../images/Tarkarli-Beach.jpg') center center/cover;
     height:700px;
     position:relative;
 }
