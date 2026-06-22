@@ -2229,7 +2229,25 @@ background:#fff;
     object-fit:cover;
     display:block;
 }
+.attraction-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:15px;
+    transition:.3s ease;
+}
 
+.attraction-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
+
+.attraction-card img{
+    transition:.5s ease;
+}
+
+.attraction-card:hover img{
+    transform:scale(1.05);
+}
 .attraction-card h3{
     position:absolute;
     bottom:20px;
@@ -2237,6 +2255,20 @@ background:#fff;
     color:#fff;
     font-size:28px;
     font-weight:700;
+    text-shadow:0 3px 10px rgba(0,0,0,.7);
+    z-index:2;
+}
+
+.attraction-card::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height:40%;
+    background:linear-gradient(to top,
+                rgba(0,0,0,.7),
+                transparent);
 }
 .feature-grid{
     display:grid;
