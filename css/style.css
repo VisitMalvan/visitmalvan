@@ -2352,3 +2352,16 @@ background:#fff;
 .attraction-card:hover img{
     transform:scale(1.08);
 }
+.exp-card{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+}
+
+.exp-card h3{
+    color:#fff;
+}
+
+.exp-card:hover{
+    transform:translateY(-6px);
+}
