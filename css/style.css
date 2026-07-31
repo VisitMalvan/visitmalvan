@@ -2384,3 +2384,20 @@ background:#fff;
 .feature-card{
     transition:.3s;
 }
+.feature-card{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+}
+
+.feature-card h3{
+    color:#0d6e8c;
+}
+
+.feature-card p{
+    color:#666;
+}
+
+.feature-card:hover{
+    text-decoration:none;
+}
