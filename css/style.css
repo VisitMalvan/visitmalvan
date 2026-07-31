@@ -2365,3 +2365,22 @@ background:#fff;
 .exp-card:hover{
     transform:translateY(-6px);
 }
+.gallery-card,
+.feature-card{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.gallery-card:hover,
+.feature-card:hover{
+    transform:translateY(-6px);
+}
+
+.gallery-card{
+    transition:.3s;
+}
+
+.feature-card{
+    transition:.3s;
+}
