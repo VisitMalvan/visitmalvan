@@ -2401,3 +2401,8 @@ background:#fff;
 .feature-card:hover{
     text-decoration:none;
 }
+.destination-card{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+}
