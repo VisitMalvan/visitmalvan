@@ -2417,3 +2417,14 @@ background:#fff;
     font-weight:600;
     margin-top:12px;
 }
+.service-card{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+    transition:0.3s ease;
+    cursor:pointer;
+}
+.service-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
