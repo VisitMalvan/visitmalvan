@@ -2405,4 +2405,6 @@ background:#fff;
     display:block;
     text-decoration:none;
     color:inherit;
+    aspect-ratio:16/9;
+    height:auto;
 }
