@@ -326,7 +326,7 @@ text-align:center;
 .destination-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
+gap:16px;
 margin-top:40px;
 }
 
@@ -2410,7 +2410,8 @@ background:#fff;
 }
 .destination-btn{
     display:inline-block;
-    padding:10px 22px;
+    padding:10px 18px;
+    font-size:14px;
     background:#ff7a00;
     color:#fff;
     border-radius:30px;
