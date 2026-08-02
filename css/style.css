@@ -215,7 +215,6 @@ color:#0a6d83;
 /*==================================================
                     BUTTONS
 ==================================================*/
-
 .hero-buttons{
 
     display:flex;
@@ -223,6 +222,10 @@ color:#0a6d83;
     align-items:center;
 
     gap:10px;
+
+    position:relative;
+
+    top:6px;   /* Moves the buttons down */
 
 }
 
