@@ -1123,31 +1123,6 @@ height:320px;
 
 }
 
-/* CTA SECTION */
-
-.cta-section{
-background:#0a6d83;
-color:white;
-padding:100px 20px;
-text-align:center;
-}
-
-.cta-section h2{
-    color:#fff;
-    font-size:42px;
-    margin-bottom:20px;
-}
-
-/* FOOTER */
-
-.site-footer p{
-margin:8px 0;
-}
-.copyright{
-text-align:center;
-margin-top:20px;
-font-size:14px;
-}
 
 /* RESPONSIVE */
 
@@ -2025,57 +2000,7 @@ justify-content:center;
 gap:15px;
 flex-wrap:wrap;
 }
-/* FOOTER */
 
-.site-footer{
-background:#111;
-color:white;
-padding:50px 20px 20px;
-}
-
-.footer-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:30px;
-max-width:1100px;
-margin:auto;
-}
-
-.footer-section h3{
-margin-bottom:15px;
-font-size:18px;
-}
-
-.footer-section p{
-font-size:14px;
-line-height:1.6;
-}
-
-.footer-section ul{
-list-style:none;
-padding:0;
-}
-
-.footer-section ul li{
-margin-bottom:10px;
-}
-
-.footer-section a{
-color:#ddd;
-text-decoration:none;
-}
-
-.footer-section a:hover{
-color:#ff7b00;
-}
-
-.footer-bottom{
-text-align:center;
-margin-top:30px;
-padding-top:15px;
-border-top:1px solid #333;
-font-size:14px;
-}
 /* PREMIUM NAVIGATION STYLING */
 
 .nav a{
@@ -2296,7 +2221,338 @@ grid-template-columns:1fr;
 
 }
 
+/*=========================================
+        FOOTER CTA
+=========================================*/
 
+.footer-cta{
+
+padding:70px 20px;
+
+background:linear-gradient(135deg,#0B6E8A,#0A4E63);
+
+color:#fff;
+
+}
+
+.footer-cta-content{
+
+max-width:1250px;
+
+margin:auto;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:40px;
+
+flex-wrap:wrap;
+
+}
+
+.footer-cta h2{
+
+font-size:42px;
+
+margin-bottom:15px;
+
+}
+
+.footer-cta p{
+
+font-size:18px;
+
+opacity:.9;
+
+max-width:650px;
+
+}
+
+.footer-cta-buttons{
+
+display:flex;
+
+gap:18px;
+
+flex-wrap:wrap;
+
+}
+
+/*=========================================
+        FOOTER
+=========================================*/
+
+.site-footer{
+
+background:#102432;
+
+color:#fff;
+
+padding:80px 20px 0;
+
+}
+
+.footer-grid{
+
+display:grid;
+
+grid-template-columns:2fr 1fr 1fr 1.3fr;
+
+gap:45px;
+
+max-width:1250px;
+
+margin:auto;
+
+}
+
+.footer-logo{
+
+width:180px;
+
+margin-bottom:20px;
+
+}
+
+.footer-section h3{
+
+margin-bottom:25px;
+
+font-size:24px;
+
+}
+
+.footer-section p{
+
+line-height:1.8;
+
+color:#d6dde2;
+
+margin-bottom:15px;
+
+}
+
+.footer-section ul{
+
+padding:0;
+
+margin:0;
+
+list-style:none;
+
+}
+
+.footer-section li{
+
+margin-bottom:14px;
+
+}
+
+.footer-section a{
+
+color:#d6dde2;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.footer-section a:hover{
+
+color:#FFD166;
+
+padding-left:5px;
+
+}
+
+.footer-social{
+
+display:flex;
+
+gap:15px;
+
+margin-top:25px;
+
+}
+
+.footer-social a{
+
+width:45px;
+
+height:45px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+border-radius:50%;
+
+background:#1d3b50;
+
+color:#fff;
+
+transition:.3s;
+
+}
+
+.footer-social a:hover{
+
+background:#FF7A00;
+
+transform:translateY(-4px);
+
+}
+
+.footer-bottom{
+
+margin-top:60px;
+
+padding:25px 0;
+
+border-top:1px solid rgba(255,255,255,.12);
+
+}
+
+.footer-bottom .container{
+
+display:flex;
+
+justify-content:space-between;
+
+flex-wrap:wrap;
+
+max-width:1250px;
+
+margin:auto;
+
+color:#c7d3db;
+
+}
+
+/*=========================================
+        FLOATING BUTTONS
+=========================================*/
+
+.call-float,
+.whatsapp-float{
+
+position:fixed;
+
+right:20px;
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:14px 20px;
+
+border-radius:40px;
+
+color:#fff;
+
+text-decoration:none;
+
+font-weight:700;
+
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+z-index:999;
+
+transition:.3s;
+
+}
+
+.call-float{
+
+bottom:90px;
+
+background:#FF7A00;
+
+}
+
+.whatsapp-float{
+
+bottom:25px;
+
+background:#25D366;
+
+}
+
+.call-float:hover,
+.whatsapp-float:hover{
+
+transform:translateY(-4px);
+
+}
+
+/*=========================================
+        MOBILE
+=========================================*/
+
+@media(max-width:992px){
+
+.footer-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.footer-bottom .container{
+
+flex-direction:column;
+
+text-align:center;
+
+gap:10px;
+
+}
+
+.footer-cta{
+
+text-align:center;
+
+}
+
+.footer-cta-content{
+
+justify-content:center;
+
+}
+
+.footer-cta h2{
+
+font-size:32px;
+
+}
+
+.call-float,
+.whatsapp-float{
+
+padding:14px 18px;
+
+font-size:14px;
+
+}
+
+}
 /* Header Buttons */
 
 .header-btn{
