@@ -97,17 +97,17 @@ color:#0a6d83;
 
     text-decoration:none;
 
-    color:#23384a;
+    color:#1f2937;   /* Dark charcoal */
 
-    font-size:15px;
+    font-size:16px;
 
     font-weight:600;
 
     white-space:nowrap;
 
-    position:relative;
+    transition:all .3s ease;
 
-    transition:.3s;
+    position:relative;
 
 }
 
