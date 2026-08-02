@@ -456,17 +456,27 @@ color:#0a6d83;
 .hero-services{
     display:flex;
     justify-content:center;
+    align-items:center;
     flex-wrap:wrap;
-    gap:15px;
-    margin-bottom:35px;
+    gap:12px;
+    margin:25px auto;
+    max-width:850px;
 }
 
 .hero-services span{
-    padding:12px 20px;
-    background:rgba(255,255,255,.15);
-    border-radius:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    padding:8px 16px;
+    background:rgba(255,255,255,.18);
     backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,.25);
+    border-radius:30px;
+    color:#fff;
+    font-size:14px;
     font-weight:600;
+    white-space:nowrap;
 }
 
 .hero-buttons{
