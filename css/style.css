@@ -89,38 +89,33 @@ color:#0a6d83;
 
     align-items:center;
 
-    gap:22px;
+    gap:24px;
 
 }
 
 .nav a{
 
+    color:#1f2937;          /* Dark charcoal */
+
+    font-size:17px;         /* Was effectively larger before */
+
+    font-weight:700;        /* Increase from 600 */
+
+    letter-spacing:.2px;
+
     text-decoration:none;
-
-    color:#1f2937;   /* Dark charcoal */
-
-    font-size:16px;
-
-    font-weight:600;
 
     white-space:nowrap;
 
-    transition:all .3s ease;
+    transition:.3s;
 
     position:relative;
 
 }
 
-.nav a:hover{
-
-    color:#ff7a00;
-
-}
-
+.nav a:hover,
 .nav a.active{
-
     color:#ff7a00;
-
 }
 
 .nav a::after{
