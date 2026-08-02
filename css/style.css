@@ -2392,60 +2392,39 @@ grid-template-columns:1fr;
         FOOTER CTA
 =========================================*/
 
+/* ===========================
+   READY TO EXPLORE CTA
+=========================== */
+
 .footer-cta{
-
-padding:70px 20px;
-
-background:linear-gradient(135deg,#0B6E8A,#0A4E63);
-
-color:#fff;
-
-}
-
-.footer-cta-content{
-
-max-width:1250px;
-
-margin:auto;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-gap:40px;
-
-flex-wrap:wrap;
-
+    background:linear-gradient(135deg,#0b6e8a,#0a4e63);
+    padding:70px 20px;
+    text-align:center;
+    color:#ffffff;
 }
 
 .footer-cta h2{
-
-font-size:42px;
-
-margin-bottom:15px;
-
+    color:#ffffff;
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:15px;
+    opacity:1;
 }
 
 .footer-cta p{
-
-font-size:18px;
-
-opacity:.9;
-
-max-width:650px;
-
+    color:#ffffff;
+    font-size:18px;
+    line-height:1.7;
+    opacity:1;
+    max-width:700px;
+    margin:0 auto 30px;
 }
 
 .footer-cta-buttons{
-
-display:flex;
-
-gap:18px;
-
-flex-wrap:wrap;
-
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
 }
 
 /*=========================================
