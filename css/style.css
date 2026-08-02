@@ -59,7 +59,7 @@ color:#0a6d83;
 
     display:flex;
 
-    align-items:center;
+    align-items:flex-end;
 
     justify-content:space-between;
 
@@ -162,13 +162,13 @@ color:#0a6d83;
 
 .header-right{
 
-    display:flex;
+  display:flex;
 
     align-items:center;
 
     gap:18px;
 
-    flex-shrink:0;
+    margin-top:6px;
 
 }
 
