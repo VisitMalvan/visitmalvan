@@ -685,8 +685,8 @@ margin-bottom:20px;
 
 .service-icon{
 
-    width:80px;
-    height:80px;
+    width:85px;
+    height:85px;
 
     border-radius:50%;
 
@@ -694,16 +694,25 @@ margin-bottom:20px;
     align-items:center;
     justify-content:center;
 
-    font-size:36px;
-
     background:linear-gradient(135deg,#00b4d8,#0d6efd);
-
-    color:#fff;
 
     margin-bottom:25px;
 
+    transition:.35s;
 }
 
+.service-icon i{
+
+    font-size:34px;
+    color:#fff;
+
+}
+
+.service-card:hover .service-icon{
+
+    transform:rotate(-8deg) scale(1.08);
+
+}
 /* TITLE */
 
 .service-card h3{
