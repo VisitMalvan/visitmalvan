@@ -455,7 +455,7 @@ margin-bottom:20px;
 .destination-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    gap:28px;
+    gap:32px;
 }
 
 .destination-card{
