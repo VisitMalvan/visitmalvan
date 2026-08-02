@@ -1706,58 +1706,138 @@ transform:translateY(-2px);
 
 }
 /* TESTIMONIALS */
+/*=========================================
+            TESTIMONIALS
+=========================================*/
 
 .testimonials{
-background:#ffffff;
-padding:80px 20px;
-text-align:center;
+
+    padding:90px 20px;
+
+    background:#ffffff;
+
+}
+
+.testimonials .container{
+
+    max-width:1250px;
+
+    margin:auto;
+
 }
 
 .testimonial-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:25px;
-margin-top:40px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
 }
 
 .testimonial-card{
-background:#fff;
-padding:30px;
-border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-}
 
-.testimonial-author{
-font-weight:700;
-margin-top:20px;
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
 }
 
 .testimonial-card:hover{
-transform:translateY(-6px);
-box-shadow:0 12px 28px rgba(0,0,0,0.15);
+
+    transform:translateY(-8px);
+
+    box-shadow:0 22px 45px rgba(0,0,0,.15);
+
+}
+
+.testimonial-top{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    margin-bottom:20px;
+
+}
+
+.testimonial-avatar{
+
+    width:65px;
+
+    height:65px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#00b4d8,#0d6efd);
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-weight:700;
+
+    font-size:22px;
+
+}
+
+.testimonial-top h4{
+
+    margin:0;
+
+    color:#0c6b83;
+
+}
+
+.testimonial-top small{
+
+    color:#888;
+
 }
 
 .stars{
-color:#ffb400;
-font-size:18px;
-margin-bottom:10px;
+
+    color:#FFD166;
+
+    font-size:22px;
+
+    margin-bottom:18px;
+
 }
 
 .testimonial-card p{
-    font-size:15px;
+
+    color:#666;
+
     line-height:1.8;
-    color:#444;
+
+    font-size:16px;
+
 }
 
-.testimonial-card h4{
-margin:0;
-color:#0a6d83;
+@media(max-width:992px){
+
+.testimonial-grid{
+
+grid-template-columns:1fr;
+
 }
 
-.testimonial-card span{
-font-size:14px;
-color:#666;
 }
+
 /* PREMIUM ONE-LINE TRUST BAR */
 
 .trust-line{
