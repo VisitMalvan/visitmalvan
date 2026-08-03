@@ -3746,51 +3746,99 @@ color:#444;
 font-weight:500;
 
 }
-/* ==========================
-   TRAVEL SECTION
-========================== */
+/*=================================================
+  HOW TO REACH
+==================================================*/
 
-.travel-card{
+.travel-section{
 
-padding:40px 35px;
+padding:100px 20px;
+
+background:#fff;
+
+}
+
+.travel-section .container{
+
+max-width:1200px;
+
+margin:auto;
 
 text-align:center;
 
+}
+
+.travel-section h2{
+
+font-size:46px;
+
+color:#0f6b82;
+
+margin-bottom:20px;
+
+}
+
+.travel-section .section-subtitle{
+
+max-width:760px;
+
+margin:0 auto 60px;
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#666;
+
+}
+
+/* GRID */
+
+.travel-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:35px;
+
+}
+
+/* CARD */
+
+.travel-box{
+
 background:#fff;
+
+padding:40px 35px;
 
 border-radius:18px;
 
 box-shadow:0 15px 40px rgba(0,0,0,.08);
 
-transition:.3s;
-
-min-height:330px;
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:flex-start;
+transition:.35s;
 
 }
 
-.travel-card:hover{
+.travel-box:hover{
 
 transform:translateY(-8px);
 
+box-shadow:0 20px 50px rgba(0,0,0,.14);
+
 }
+
+/* ICON */
 
 .travel-icon{
 
-width:80px;
+width:64px;
 
-height:80px;
+height:64px;
 
 margin:0 auto 25px;
 
 background:#0b84c6;
-
-color:#fff;
 
 border-radius:50%;
 
@@ -3800,21 +3848,27 @@ align-items:center;
 
 justify-content:center;
 
-font-size:34px;
+color:#fff;
+
+font-size:28px;
 
 }
 
-.travel-card h3{
+/* HEADING */
 
-font-size:26px;
+.travel-box h3{
 
-margin-bottom:25px;
+font-size:28px;
+
+margin-bottom:30px;
 
 color:#0f5d78;
 
 }
 
-.travel-card ul{
+/* LIST */
+
+.travel-box ul{
 
 list-style:none;
 
@@ -3824,18 +3878,84 @@ margin:0;
 
 }
 
-.travel-card li{
+.travel-box li{
 
-padding:10px 0;
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:16px 0;
+
+border-bottom:1px solid #ececec;
 
 font-size:17px;
 
-border-bottom:1px solid #eee;
+}
+
+.travel-box li:last-child{
+
+border-bottom:none;
 
 }
 
-.travel-card li:last-child{
+.travel-box strong{
 
-border-bottom:none;
+color:#222;
+
+font-weight:700;
+
+}
+
+.travel-box span{
+
+color:#666;
+
+font-size:15px;
+
+text-align:right;
+
+}
+
+/* MOBILE */
+
+@media(max-width:992px){
+
+.travel-grid{
+
+grid-template-columns:1fr;
+
+gap:25px;
+
+}
+
+.travel-box{
+
+padding:35px 25px;
+
+}
+
+.travel-section h2{
+
+font-size:36px;
+
+}
+
+.travel-box li{
+
+flex-direction:column;
+
+gap:6px;
+
+text-align:center;
+
+}
+
+.travel-box span{
+
+text-align:center;
+
+}
 
 }
