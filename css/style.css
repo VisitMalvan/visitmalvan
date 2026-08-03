@@ -3725,3 +3725,24 @@ details[open] summary{
 color:#ff7a00;
 
 }
+.expert-list{
+
+list-style:none;
+
+padding:0;
+
+margin:25px 0;
+
+}
+
+.expert-list li{
+
+padding:8px 0;
+
+font-size:17px;
+
+color:#444;
+
+font-weight:500;
+
+}
