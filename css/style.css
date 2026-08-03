@@ -718,7 +718,17 @@ list-style:none;
 margin-bottom:8px;
 font-weight:500;
 }
+.point-card{
 
+background:#f7fbff;
+
+padding:14px;
+
+border-radius:10px;
+
+font-weight:600;
+
+}
 @media (max-width:768px){
 
 .about-grid{
@@ -3694,4 +3704,27 @@ background:#fff;
 .service-card:hover{
     transform:translateY(-8px);
     box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
+.faq-section details{
+
+background:#fff;
+
+margin:15px 0;
+
+padding:20px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.faq-section summary{
+
+cursor:pointer;
+
+font-size:18px;
+
+font-weight:700;
+
 }
