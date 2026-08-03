@@ -3746,3 +3746,96 @@ color:#444;
 font-weight:500;
 
 }
+/* ==========================
+   TRAVEL SECTION
+========================== */
+
+.travel-card{
+
+padding:40px 35px;
+
+text-align:center;
+
+background:#fff;
+
+border-radius:18px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.3s;
+
+min-height:330px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:flex-start;
+
+}
+
+.travel-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.travel-icon{
+
+width:80px;
+
+height:80px;
+
+margin:0 auto 25px;
+
+background:#0b84c6;
+
+color:#fff;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:34px;
+
+}
+
+.travel-card h3{
+
+font-size:26px;
+
+margin-bottom:25px;
+
+color:#0f5d78;
+
+}
+
+.travel-card ul{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+.travel-card li{
+
+padding:10px 0;
+
+font-size:17px;
+
+border-bottom:1px solid #eee;
+
+}
+
+.travel-card li:last-child{
+
+border-bottom:none;
+
+}
