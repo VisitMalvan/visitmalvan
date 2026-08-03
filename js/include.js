@@ -1,38 +1,83 @@
+/*==================================================
+    LOAD HEADER & FOOTER
+==================================================*/
+
 async function loadIncludes() {
 
-  const header = await fetch('/includes/header.html');
-  document.getElementById("header").innerHTML = await header.text();
+    const headerContainer = document.getElementById("header");
 
-  const footer = await fetch('/includes/footer.html');
-  document.getElementById("footer").innerHTML = await footer.text();
+    if (headerContainer) {
+
+        const header = await fetch("/includes/header.html");
+
+        headerContainer.innerHTML = await header.text();
+
+    }
+
+    const footerContainer = document.getElementById("footer");
+
+    if (footerContainer) {
+
+        const footer = await fetch("/includes/footer.html");
+
+        footerContainer.innerHTML = await footer.text();
+
+    }
+
+    initialiseHeader();
 
 }
 
 loadIncludes();
-function toggleMenu() {
-  var menu = document.getElementById("mobileMenu");
-  menu.classList.toggle("active");
-}
 
-/* NEW: close menu when a link is clicked */
 
-document.querySelectorAll("#mobileMenu a").forEach(function(link) {
-  link.addEventListener("click", function() {
-    document.getElementById("mobileMenu").classList.remove("active");
-  });
-});
-document.addEventListener("DOMContentLoaded", () => {
+/*==================================================
+    INITIALISE HEADER
+==================================================*/
 
-    const current = window.location.pathname.split("/").pop();
+function initialiseHeader() {
 
-    document.querySelectorAll(".nav a").forEach(link => {
+    const menu = document.getElementById("mobileMenu");
 
-        const href = link.getAttribute("href");
+    if (!menu) return;
 
-        if (href === current || (current === "" && href === "index.html")) {
+    /* Active Menu */
+
+    const current = window.location.pathname.split("/").pop() || "index.html";
+
+    menu.querySelectorAll("a").forEach(link => {
+
+        if (link.getAttribute("href") === current) {
+
             link.classList.add("active");
+
         }
+
+        /* Close menu after click */
+
+        link.addEventListener("click", () => {
+
+            menu.classList.remove("show");
+
+        });
 
     });
 
-});
+}
+
+
+/*==================================================
+    MOBILE MENU
+==================================================*/
+
+function toggleMenu() {
+
+    const menu = document.getElementById("mobileMenu");
+
+    if (menu) {
+
+        menu.classList.toggle("show");
+
+    }
+
+}
