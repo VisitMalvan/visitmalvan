@@ -337,11 +337,15 @@ HEADER
 
     top:0;
 
-    z-index:1000;
+    left:0;
 
-    background:#fff;
+    width:100%;
+
+    background:var(--white);
 
     box-shadow:var(--shadow-sm);
+
+    z-index:999;
 
 }
 
@@ -355,29 +359,43 @@ HEADER
 
     min-height:var(--header-height);
 
-    gap:30px;
+    gap:35px;
 
 }
+
+
 /*==================================================
 LOGO
 ==================================================*/
+
+.logo{
+
+    flex-shrink:0;
+
+}
+
 .logo img{
 
     width:180px;
 
     height:auto;
 
+    display:block;
+
 }
+
+
 /*==================================================
 NAVIGATION
 ==================================================*/
+
 .nav{
 
     display:flex;
 
     align-items:center;
 
-    gap:28px;
+    gap:30px;
 
     margin-left:auto;
 
@@ -385,13 +403,15 @@ NAVIGATION
 
 .nav a{
 
+    position:relative;
+
     color:var(--heading);
 
     font-size:16px;
 
     font-weight:500;
 
-    position:relative;
+    padding:8px 0;
 
 }
 
@@ -403,7 +423,7 @@ NAVIGATION
 
     left:0;
 
-    bottom:-8px;
+    bottom:-4px;
 
     width:0;
 
@@ -415,6 +435,14 @@ NAVIGATION
 
 }
 
+.nav a:hover,
+
+.nav a.active{
+
+    color:var(--primary);
+
+}
+
 .nav a:hover::after,
 
 .nav a.active::after{
@@ -423,13 +451,10 @@ NAVIGATION
 
 }
 
-.nav a:hover,
 
-.nav a.active{
-
-    color:var(--primary);
-
-}
+/*==================================================
+HEADER RIGHT
+==================================================*/
 
 .header-right{
 
@@ -453,9 +478,22 @@ NAVIGATION
 
     font-weight:600;
 
+    font-size:15px;
+
     white-space:nowrap;
 
 }
+
+.header-phone i{
+
+    color:var(--accent);
+
+    font-size:15px;
+
+}
+/*==================================================
+MOBILE MENU
+==================================================*/
 
 .menu-toggle{
 
@@ -465,66 +503,82 @@ NAVIGATION
 
     border:none;
 
+    cursor:pointer;
+
     font-size:28px;
 
     color:var(--primary);
 
-    cursor:pointer;
+}
+
+.menu-toggle:hover{
+
+    color:var(--accent);
 
 }
 /*==================================================
-MOBILE HEADER
+HEADER RESPONSIVE
 ==================================================*/
 
 @media(max-width:1100px){
 
-    .menu-toggle{
+.header-container{
 
-        display:block;
+    min-height:80px;
 
-    }
+}
 
-    .nav{
+.menu-toggle{
 
-        display:none;
+    display:block;
 
-        position:absolute;
+    margin-left:auto;
 
-        top:var(--header-height);
+}
 
-        left:0;
+.nav{
 
-        width:100%;
+    position:absolute;
 
-        background:#fff;
+    top:100%;
 
-        flex-direction:column;
+    left:0;
 
-        padding:25px;
+    width:100%;
 
-        box-shadow:var(--shadow);
+    background:#fff;
 
-        gap:18px;
+    display:none;
 
-    }
+    flex-direction:column;
 
-    .nav.show{
+    align-items:flex-start;
 
-        display:flex;
+    padding:25px;
 
-    }
+    box-shadow:var(--shadow);
 
-    .header-phone{
+    gap:18px;
 
-        display:none;
+}
 
-    }
+.nav.show{
 
-    .header-right .btn{
+    display:flex;
 
-        display:none;
+}
 
-    }
+.header-right{
+
+    display:none;
+
+}
+
+.logo img{
+
+    width:160px;
+
+}
 
 }
 /*==================================================
