@@ -2352,113 +2352,89 @@ margin-bottom:10px;
 }
 
 
-/*=========================================
-            STATS
-=========================================*/
+/* ==========================
+   STATS SECTION
+========================== */
 
 .stats-section{
 
-    padding:90px 20px;
+background:#0d6e88;
 
-    background:linear-gradient(135deg,#0B6E8A,#0A4E63);
+padding:70px 20px;
 
-}
+display:grid;
 
-.stats-section .container{
+grid-template-columns:repeat(4,1fr);
 
-    max-width:1250px;
+gap:25px;
 
-    margin:auto;
+max-width:1200px;
 
-}
-
-.stats-grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(4,1fr);
-
-    gap:30px;
+margin:0 auto;
 
 }
 
 .stat-box{
 
-    background:rgba(255,255,255,.12);
+background:rgba(255,255,255,.08);
 
-    backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,.12);
 
-    border:1px solid rgba(255,255,255,.12);
+border-radius:14px;
 
-    border-radius:18px;
+padding:30px 20px;
 
-    padding:35px;
+text-align:center;
 
-    text-align:center;
-
-    color:#fff;
-
-    transition:.35s;
+transition:.3s;
 
 }
 
 .stat-box:hover{
 
-    transform:translateY(-8px);
+transform:translateY(-6px);
 
-    background:rgba(255,255,255,.18);
-
-}
-
-.stat-icon{
-
-    width:80px;
-
-    height:80px;
-
-    margin:0 auto 20px;
-
-    border-radius:50%;
-
-    background:rgba(255,255,255,.15);
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
+background:rgba(255,255,255,.12);
 
 }
 
-.stat-icon i{
+.stat-box span{
 
-    font-size:34px;
+font-size:32px;
 
-    color:#FFD166;
+display:block;
+
+margin-bottom:12px;
 
 }
 
 .stat-box h3{
 
-    font-size:44px;
+font-size:34px;
 
-    margin-bottom:12px;
+font-weight:700;
 
-    color:#fff;
+color:#fff;
+
+margin-bottom:8px;
 
 }
 
 .stat-box p{
 
-    font-size:17px;
+color:#d8eef5;
 
-    color:#eef5f8;
+font-size:15px;
+
+margin:0;
 
 }
 
-@media(max-width:992px){
+/* Tablet */
 
-.stats-grid{
+@media(max-width:900px){
+
+.stats-section{
 
 grid-template-columns:repeat(2,1fr);
 
@@ -2466,16 +2442,17 @@ grid-template-columns:repeat(2,1fr);
 
 }
 
-@media(max-width:768px){
+/* Mobile */
 
-.stats-grid{
+@media(max-width:600px){
+
+.stats-section{
 
 grid-template-columns:1fr;
 
 }
 
 }
-
 /*=========================================
         FOOTER CTA
 =========================================*/
