@@ -3728,3 +3728,8 @@ font-size:18px;
 font-weight:700;
 
 }
+details[open] summary{
+
+color:#ff7a00;
+
+}
