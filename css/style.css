@@ -632,7 +632,119 @@ margin-bottom:30px;
     transition:all .3s ease;
     box-sizing:border-box;
 }
+/*==================================
+LOCAL EXPERT
+==================================*/
 
+.expert-section{
+
+padding:90px 0;
+
+background:#fff;
+
+}
+
+.expert-wrapper{
+
+display:grid;
+
+grid-template-columns:360px 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.expert-photo img{
+
+width:100%;
+
+border-radius:20px;
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.expert-content h2{
+
+margin:15px 0 20px;
+
+font-size:42px;
+
+color:#0b6e8a;
+
+}
+
+.expert-content p{
+
+font-size:18px;
+
+line-height:1.9;
+
+margin-bottom:30px;
+
+color:#555;
+
+}
+
+.expert-points{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:16px;
+
+margin-bottom:35px;
+
+}
+
+.expert-points div{
+
+background:#f6fbfd;
+
+padding:14px 18px;
+
+border-radius:10px;
+
+font-weight:600;
+
+}
+
+.expert-points i{
+
+color:#25D366;
+
+margin-right:8px;
+
+}
+
+@media(max-width:900px){
+
+.expert-wrapper{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.expert-photo{
+
+max-width:320px;
+
+margin:auto;
+
+}
+
+.expert-points{
+
+grid-template-columns:1fr;
+
+}
+
+}
 /* Plan My Trip */
 
 .plantrip-header{
@@ -1884,61 +1996,6 @@ border-top:1px solid #eee;
 display:none;
 }
 }
-<section class="expert-highlight">
-
-    <div class="container expert-grid">
-
-        <div class="expert-photo">
-
-            <img src="images/smita-hatle-malvan-travel-expert.jpg"
-                 alt="Smita Hatle - Local Travel Expert">
-
-        </div>
-
-        <div class="expert-content">
-
-            <div class="section-tag">
-                LOCAL EXPERT
-            </div>
-
-            <h2>Plan Your Trip With A Local Expert</h2>
-
-            <p>
-                Born and raised in Malvan, <strong>Smita Hatle</strong> helps travellers
-                discover the best hotels, homestays, water sports,
-                sightseeing and authentic local experiences.
-            </p>
-
-            <ul class="expert-list">
-
-                <li>✔ Born & Raised in Malvan</li>
-                <li>✔ Verified Hotels & Homestays</li>
-                <li>✔ Local Sightseeing Expert</li>
-                <li>✔ Water Sports Assistance</li>
-                <li>✔ Quick WhatsApp Support</li>
-                <li>✔ Personalized Trip Planning</li>
-
-            </ul>
-
-            <div class="hero-buttons">
-
-                <a href="contact.html"
-                   class="header-btn plantrip-header">
-                    Plan My Trip
-                </a>
-
-                <a href="https://wa.me/917776000251"
-                   class="header-btn whatsapp-header">
-                    WhatsApp
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
 /* TESTIMONIALS */
 /*=========================================
             TESTIMONIALS
