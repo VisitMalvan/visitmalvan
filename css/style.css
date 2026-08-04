@@ -448,29 +448,53 @@ color:#0a6d83;
 }
 
 .hero-services{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-wrap:wrap;
-    gap:12px;
-    margin:25px auto;
-    max-width:850px;
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+margin-bottom:35px;
+
 }
 
 .hero-services span{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:6px;
-    padding:8px 16px;
-    background:rgba(255,255,255,.18);
-    backdrop-filter:blur(10px);
-    border:1px solid rgba(255,255,255,.25);
-    border-radius:30px;
-    color:#fff;
-    font-size:14px;
-    font-weight:600;
-    white-space:nowrap;
+
+display:flex;
+
+align-items:center;
+
+gap:8px;
+
+padding:12px 18px;
+
+background:rgba(255,255,255,.12);
+
+border:1px solid rgba(255,255,255,.25);
+
+backdrop-filter:blur(10px);
+
+border-radius:50px;
+
+font-size:15px;
+
+font-weight:500;
+
+color:#fff;
+
+transition:.3s;
+
+}
+
+.hero-services span:hover{
+
+background:rgba(255,255,255,.20);
+
+transform:translateY(-2px);
+
 }
 
 .hero-buttons{
@@ -588,9 +612,9 @@ font-size:22px;
 
 color:#fff;
 
-max-width:900px;
+max-width:760px;
 
-margin:0 auto 35px;
+margin:25px auto 35px;
 
 line-height:1.8;
 
