@@ -190,20 +190,19 @@ color:#0a6d83;
     font-size:15px;
 
 }
-
 .header-phone a{
 
-    color:#0b6e8a;
+    color:var(--primary);
 
     text-decoration:none;
 
-    transition:.3s;
+    font-weight:600;
 
 }
 
 .header-phone a:hover{
 
-    color:#ff7a00;
+    color:var(--accent);
 
 }
 
