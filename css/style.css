@@ -647,9 +647,9 @@ background:#fff;
 
 display:grid;
 
-grid-template-columns:360px 1fr;
+grid-template-columns:400px 1fr;
 
-gap:70px;
+gap:60px;
 
 align-items:center;
 
