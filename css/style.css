@@ -4059,3 +4059,12 @@ grid-template-columns:1fr;
 }
 
 }
+.visit-image img{
+
+    max-height:380px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+}
