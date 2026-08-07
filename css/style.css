@@ -4142,7 +4142,27 @@ grid-template-columns:1fr;
 
 }
 .section-badge{
-    margin-bottom:15px;
+
+display:inline-block;
+
+padding:8px 18px;
+
+background:#EAF8FD;
+
+color:var(--primary);
+
+border-radius:30px;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:1px;
+
+margin-bottom:18px;
+
+text-transform:uppercase;
+
 }
 
 .section-title{
