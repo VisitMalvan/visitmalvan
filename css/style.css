@@ -4071,3 +4071,72 @@ grid-template-columns:1fr;
     border-radius:20px;
 
 }
+/*==========================
+WHY VISIT
+==========================*/
+
+.feature-list{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:15px;
+
+max-width:900px;
+
+margin:40px auto;
+
+}
+
+.feature-item{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+padding:16px 18px;
+
+background:#f6fbff;
+
+border:1px solid #e5eef6;
+
+border-radius:10px;
+
+font-weight:500;
+
+}
+
+.feature-item i{
+
+width:36px;
+
+height:36px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+background:var(--primary);
+
+color:#fff;
+
+border-radius:50%;
+
+font-size:14px;
+
+}
+
+@media(max-width:768px){
+
+.feature-list{
+
+grid-template-columns:1fr;
+
+}
+
+}
