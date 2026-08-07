@@ -503,6 +503,7 @@ transform:translateY(-2px);
     gap:18px;
     flex-wrap:wrap;
     margin-bottom:45px;
+  margin-top:35px;
 }
 
 .header-btn{
