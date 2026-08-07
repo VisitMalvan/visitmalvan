@@ -3244,14 +3244,12 @@ background:#fff;
         grid-template-columns:1fr;
     }
 }
-/*==================================
-TARKARLI HERO
-==================================*/
-
 .tarkarli-hero{
 
-    background:url("../images/Tarkarli-Beach.jpg")
-    center center/cover no-repeat;
+    background-image:url("../images/Tarkarli-Beach.jpg") !important;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
 
 }
 
