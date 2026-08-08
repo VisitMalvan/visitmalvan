@@ -4214,3 +4214,13 @@ text-transform:uppercase;
     }
 
 }
+/*==================================
+  SECTION LABEL ALIGNMENT
+==================================*/
+
+.section-label{
+    display:block;
+    width:100%;
+    text-align:center;
+    margin:0 auto 18px;
+}
