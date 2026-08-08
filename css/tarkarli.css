@@ -1,0 +1,1564 @@
+/* =========================================================
+   VISIT MALVAN
+   TARKARLI PAGE CSS
+   ---------------------------------------------------------
+   This stylesheet is ONLY for tarkarli.html.
+   Common styles remain in css/style.css.
+   ========================================================= */
+
+
+/* =========================================================
+   1. TARKARLI HERO
+   ========================================================= */
+
+.tarkarli-page .tarkarli-hero {
+
+    position: relative;
+
+    min-height: 620px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background:
+        url("../images/Tarkarli-Beach.jpg")
+        center center / cover no-repeat;
+
+    color: #fff;
+
+    overflow: hidden;
+}
+
+
+/* Hero overlay */
+
+.tarkarli-page .tarkarli-hero .hero-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.40),
+        rgba(0, 0, 0, 0.58)
+    );
+
+    z-index: 1;
+}
+
+
+/* Hero content */
+
+.tarkarli-page .tarkarli-hero .hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 90%;
+
+    max-width: 850px;
+
+    margin: 0 auto;
+}
+
+
+/* Hero badge */
+
+.tarkarli-page .tarkarli-hero .hero-badge {
+
+    display: inline-block;
+
+    padding: 9px 20px;
+
+    margin-bottom: 22px;
+
+    border-radius: 40px;
+
+    background: rgba(255,255,255,0.15);
+
+    border: 1px solid rgba(255,255,255,0.28);
+
+    backdrop-filter: blur(10px);
+
+    color: #fff;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.3px;
+}
+
+
+/* Hero heading */
+
+.tarkarli-page .tarkarli-hero h1 {
+
+    margin: 0 0 15px;
+
+    color: #fff;
+
+    font-size: 58px;
+
+    line-height: 1.1;
+
+    font-weight: 800;
+}
+
+
+/* Highlighted word */
+
+.tarkarli-page .tarkarli-hero h1 span {
+
+    display: block;
+
+    color: #FFD166;
+}
+
+
+/* Hero description */
+
+.tarkarli-page .tarkarli-hero .hero-sub {
+
+    max-width: 720px;
+
+    margin: 0 auto 28px;
+
+    color: #fff;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+.tarkarli-page .tarkarli-hero .hero-sub strong {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #fff;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   2. HERO SERVICE PILLS
+   ========================================================= */
+
+.tarkarli-page .tarkarli-hero .hero-services {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 28px;
+}
+
+
+.tarkarli-page .tarkarli-hero .hero-services span {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 9px 16px;
+
+    border-radius: 40px;
+
+    background: rgba(255,255,255,0.12);
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+    backdrop-filter: blur(8px);
+
+    color: #fff;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    transition: all 0.3s ease;
+}
+
+
+.tarkarli-page .tarkarli-hero .hero-services span:hover {
+
+    background: rgba(255,255,255,0.22);
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   3. HERO BUTTONS
+   ========================================================= */
+
+.tarkarli-page .tarkarli-hero .hero-buttons {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+
+.tarkarli-page .tarkarli-hero .header-btn {
+
+    min-width: 150px;
+
+    height: 48px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 0 24px;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    box-sizing: border-box;
+
+    transition: all 0.3s ease;
+}
+
+
+.tarkarli-page .tarkarli-hero .plantrip-header {
+
+    background: #FF7A00;
+
+    color: #fff;
+}
+
+
+.tarkarli-page .tarkarli-hero .plantrip-header:hover {
+
+    background: #E86D00;
+
+    transform: translateY(-2px);
+}
+
+
+.tarkarli-page .tarkarli-hero .whatsapp-header {
+
+    background: #25D366;
+
+    color: #fff;
+}
+
+
+.tarkarli-page .tarkarli-hero .whatsapp-header:hover {
+
+    background: #1EBE5D;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   4. WHY VISIT TARKARLI
+   ========================================================= */
+
+.tarkarli-page .intro-section {
+
+    padding: 80px 20px;
+
+    background: #fff;
+}
+
+
+.tarkarli-page .intro-section .container {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+/* Section label */
+
+.tarkarli-page .section-label {
+
+    display: block;
+
+    width: 100%;
+
+    margin: 0 auto 18px;
+
+    text-align: center;
+
+    color: #087E94;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+}
+
+
+/* Section title */
+
+.tarkarli-page .intro-section .section-title {
+
+    margin: 0 0 25px;
+
+    color: #087E94;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    text-align: center;
+}
+
+
+/* Description */
+
+.tarkarli-page .intro-section .section-subtitle {
+
+    max-width: 900px;
+
+    margin: 0 auto 25px;
+
+    color: #666;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    text-align: center;
+}
+
+
+.tarkarli-page .intro-section .section-description {
+
+    max-width: 900px;
+
+    margin: 0 auto 25px;
+
+    color: #666;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   5. WHY VISIT FEATURE LIST
+   ========================================================= */
+
+.tarkarli-page .feature-list {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 15px;
+
+    max-width: 900px;
+
+    margin: 40px auto 30px;
+}
+
+
+.tarkarli-page .feature-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 17px 20px;
+
+    background: #F6FBFF;
+
+    border: 1px solid #E5EEF3;
+
+    border-radius: 10px;
+
+    color: #333;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    text-align: left;
+
+    transition: all 0.3s ease;
+}
+
+
+.tarkarli-page .feature-item:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+
+.tarkarli-page .feature-item i {
+
+    width: 42px;
+
+    height: 42px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #087E94;
+
+    color: #fff;
+
+    font-size: 16px;
+}
+
+
+/* Why Visit buttons */
+
+.tarkarli-page .intro-section .hero-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}
+
+
+.tarkarli-page .intro-section .header-btn {
+
+    min-width: 150px;
+
+    height: 48px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 7px;
+
+    padding: 0 24px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+
+
+.tarkarli-page .intro-section .plantrip-header {
+
+    background: #FF7A00;
+
+    color: #fff;
+}
+
+
+.tarkarli-page .intro-section .whatsapp-header {
+
+    background: #25D366;
+
+    color: #fff;
+}
+
+
+/* =========================================================
+   6. TOP ATTRACTIONS
+   ========================================================= */
+
+.tarkarli-page .gallery-section {
+
+    padding: 80px 20px;
+
+    background: #F4F8FA;
+}
+
+
+.tarkarli-page .gallery-section .container {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+
+/* Section label */
+
+.tarkarli-page .gallery-section .section-label {
+
+    display: block;
+
+    width: 100%;
+
+    margin-bottom: 18px;
+
+    text-align: center;
+}
+
+
+/* Title */
+
+.tarkarli-page .gallery-section .section-title {
+
+    margin: 0 0 15px;
+
+    color: #087E94;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    text-align: center;
+}
+
+
+/* Subtitle */
+
+.tarkarli-page .gallery-section .section-subtitle {
+
+    max-width: 720px;
+
+    margin: 0 auto 40px;
+
+    color: #666;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    text-align: center;
+}
+
+
+/* Attractions grid */
+
+.tarkarli-page .gallery-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+
+    max-width: 1050px;
+
+    margin: 0 auto;
+}
+
+
+/* Attraction card */
+
+.tarkarli-page .gallery-card {
+
+    position: relative;
+
+    height: 270px;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    background: #222;
+
+    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+
+    transition: all 0.4s ease;
+}
+
+
+.tarkarli-page .gallery-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+}
+
+
+/* Image */
+
+.tarkarli-page .gallery-card img {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+
+.tarkarli-page .gallery-card:hover img {
+
+    transform: scale(1.07);
+}
+
+
+/* Dark gradient */
+
+.tarkarli-page .gallery-card::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    height: 60%;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0,0,0,0.88)
+    );
+
+    z-index: 1;
+}
+
+
+/* Card overlay */
+
+.tarkarli-page .gallery-overlay {
+
+    position: absolute;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    z-index: 2;
+
+    padding: 22px;
+
+    color: #fff;
+}
+
+
+.tarkarli-page .gallery-overlay h3 {
+
+    margin: 0 0 7px;
+
+    color: #fff;
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+
+.tarkarli-page .gallery-overlay p {
+
+    margin: 0 0 12px;
+
+    color: #fff;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+/* Destination tag */
+
+.tarkarli-page .destination-tag {
+
+    display: inline-block;
+
+    padding: 5px 12px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid rgba(255,255,255,0.35);
+
+    border-radius: 30px;
+
+    background: rgba(255,255,255,0.16);
+
+    backdrop-filter: blur(8px);
+
+    color: #fff;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+
+    text-transform: uppercase;
+}
+
+
+/* Explore button */
+
+.tarkarli-page .destination-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 7px 14px;
+
+    border-radius: 20px;
+
+    background: #FF7A00;
+
+    color: #fff;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+
+.tarkarli-page .destination-btn:hover {
+
+    background: #E86D00;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   7. POPULAR ACTIVITIES
+   ========================================================= */
+
+.tarkarli-page .features-section {
+
+    padding: 75px 20px;
+
+    background: #F4F8FA;
+}
+
+
+.tarkarli-page .features-section .container {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+
+.tarkarli-page .features-section .section-title {
+
+    margin: 0 0 15px;
+
+    color: #087E94;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    text-align: center;
+}
+
+
+.tarkarli-page .features-section .section-subtitle {
+
+    max-width: 700px;
+
+    margin: 0 auto 35px;
+
+    color: #666;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    text-align: center;
+}
+
+
+/* Four equal cards */
+
+.tarkarli-page .activities-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+
+    max-width: 1050px;
+
+    margin: 0 auto;
+}
+
+
+.tarkarli-page .activities-grid .feature-card {
+
+    width: 100%;
+
+    min-height: 190px;
+
+    padding: 28px 20px;
+
+    background: #fff;
+
+    border: 1px solid #E8EEF3;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    transition: all 0.3s ease;
+}
+
+
+.tarkarli-page .activities-grid .feature-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+
+/* Activity icon */
+
+.tarkarli-page .activities-grid .feature-card > span {
+
+    display: block;
+
+    margin-bottom: 15px;
+
+    font-size: 30px;
+}
+
+
+/* Activity title */
+
+.tarkarli-page .activities-grid .feature-card h3 {
+
+    margin: 0 0 10px;
+
+    color: #087E94;
+
+    font-size: 18px;
+
+    font-weight: 700;
+}
+
+
+/* Activity text */
+
+.tarkarli-page .activities-grid .feature-card p {
+
+    margin: 0;
+
+    color: #666;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   8. WHY CHOOSE VISITMALVAN
+   ========================================================= */
+
+.tarkarli-page .why-us-section {
+
+    padding: 80px 20px;
+
+    background: #fff;
+}
+
+
+.tarkarli-page .why-us-section .container {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+
+/* Title */
+
+.tarkarli-page .why-us-section .section-title {
+
+    margin: 0 0 15px;
+
+    color: #087E94;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    text-align: center;
+}
+
+
+/* Subtitle */
+
+.tarkarli-page .why-us-section .section-subtitle {
+
+    max-width: 720px;
+
+    margin: 0 auto 35px;
+
+    color: #666;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    text-align: center;
+}
+
+
+/* Why grid */
+
+.tarkarli-page .why-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+
+    max-width: 1050px;
+
+    margin: 0 auto;
+}
+
+
+/* Why cards */
+
+.tarkarli-page .why-grid .feature-card {
+
+    min-height: 200px;
+
+    padding: 28px 20px;
+
+    background: #fff;
+
+    border: 1px solid #E7EDF1;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    text-align: center;
+
+    transition: all 0.3s ease;
+}
+
+
+.tarkarli-page .why-grid .feature-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+
+/* Why icons */
+
+.tarkarli-page .why-grid .feature-icon {
+
+    width: 52px;
+
+    height: 52px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-bottom: 15px;
+
+    border-radius: 50%;
+
+    background: #069FEA;
+
+    font-size: 22px;
+}
+
+
+/* Why heading */
+
+.tarkarli-page .why-grid .feature-card h3 {
+
+    margin: 0 0 10px;
+
+    color: #087E94;
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+
+/* Why description */
+
+.tarkarli-page .why-grid .feature-card p {
+
+    margin: 0;
+
+    color: #666;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* Why section buttons */
+
+.tarkarli-page .why-us-section .section-buttons {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}
+
+
+.tarkarli-page .why-us-section .header-btn {
+
+    min-width: 150px;
+
+    height: 48px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 0 24px;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+
+.tarkarli-page .why-us-section .plantrip-header {
+
+    background: #FF7A00;
+
+    color: #fff;
+}
+
+
+.tarkarli-page .why-us-section .whatsapp-header {
+
+    background: #25D366;
+
+    color: #fff;
+}
+
+
+/* =========================================================
+   9. FINAL CTA
+   ========================================================= */
+
+.tarkarli-page .cta-section {
+
+    padding: 85px 20px;
+
+    background: #087E94;
+
+    color: #fff;
+
+    text-align: center;
+}
+
+
+.tarkarli-page .cta-section .container {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+
+.tarkarli-page .cta-section .section-label {
+
+    margin-bottom: 15px;
+
+    color: rgba(255,255,255,0.85);
+}
+
+
+.tarkarli-page .cta-section h2 {
+
+    margin: 0 0 15px;
+
+    color: #fff;
+
+    font-size: 34px;
+
+    font-weight: 700;
+}
+
+
+.tarkarli-page .cta-section p {
+
+    max-width: 700px;
+
+    margin: 0 auto 28px;
+
+    color: rgba(255,255,255,0.92);
+
+    font-size: 15px;
+
+    line-height: 1.7;
+}
+
+
+.tarkarli-page .cta-section .cta-buttons {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+}
+
+
+.tarkarli-page .cta-section .header-btn {
+
+    min-width: 150px;
+
+    height: 48px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 0 24px;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+
+.tarkarli-page .cta-section .plantrip-header {
+
+    background: #FF7A00;
+
+    color: #fff;
+}
+
+
+.tarkarli-page .cta-section .whatsapp-header {
+
+    background: #25D366;
+
+    color: #fff;
+}
+
+
+/* =========================================================
+   10. FLOATING CONTACT BUTTONS
+   ========================================================= */
+
+.tarkarli-page .floating-contact {
+
+    position: fixed;
+
+    right: 20px;
+
+    bottom: 25px;
+
+    z-index: 9999;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+.tarkarli-page .floating-contact a {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-width: 95px;
+
+    height: 42px;
+
+    padding: 0 15px;
+
+    border-radius: 25px;
+
+    color: #fff;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+
+/* Call */
+
+.tarkarli-page .floating-call {
+
+    background: #FF7A00;
+}
+
+
+/* WhatsApp */
+
+.tarkarli-page .floating-whatsapp {
+
+    background: #25D366;
+}
+
+
+/* =========================================================
+   11. TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+
+    /* Hero */
+
+    .tarkarli-page .tarkarli-hero {
+
+        min-height: 600px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero h1 {
+
+        font-size: 48px;
+    }
+
+
+    /* Attractions */
+
+    .tarkarli-page .gallery-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Activities */
+
+    .tarkarli-page .activities-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Why */
+
+    .tarkarli-page .why-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =========================================================
+   12. MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+
+    /* Hero */
+
+    .tarkarli-page .tarkarli-hero {
+
+        min-height: 650px;
+
+        padding: 70px 15px 50px;
+
+        box-sizing: border-box;
+    }
+
+
+    .tarkarli-page .tarkarli-hero h1 {
+
+        font-size: 40px;
+
+        line-height: 1.1;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-sub {
+
+        font-size: 15px;
+
+        line-height: 1.6;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-services {
+
+        gap: 7px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-services span {
+
+        padding: 7px 11px;
+
+        font-size: 11px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .header-btn {
+
+        min-width: 135px;
+
+        height: 44px;
+
+        font-size: 13px;
+    }
+
+
+    /* Sections */
+
+    .tarkarli-page .intro-section,
+    .tarkarli-page .gallery-section,
+    .tarkarli-page .features-section,
+    .tarkarli-page .why-us-section {
+
+        padding: 60px 15px;
+    }
+
+
+    /* Titles */
+
+    .tarkarli-page .intro-section .section-title,
+    .tarkarli-page .gallery-section .section-title,
+    .tarkarli-page .features-section .section-title,
+    .tarkarli-page .why-us-section .section-title {
+
+        font-size: 25px;
+    }
+
+
+    /* Why Visit */
+
+    .tarkarli-page .intro-section .section-description,
+    .tarkarli-page .intro-section .section-subtitle {
+
+        font-size: 14px;
+
+        line-height: 1.7;
+    }
+
+
+    .tarkarli-page .feature-list {
+
+        grid-template-columns: 1fr;
+
+        gap: 10px;
+
+        margin-top: 30px;
+    }
+
+
+    .tarkarli-page .feature-item {
+
+        padding: 15px;
+
+        font-size: 14px;
+    }
+
+
+    /* Attractions */
+
+    .tarkarli-page .gallery-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+
+    .tarkarli-page .gallery-card {
+
+        height: 240px;
+    }
+
+
+    /* Activities */
+
+    .tarkarli-page .activities-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+
+    .tarkarli-page .activities-grid .feature-card {
+
+        min-height: 175px;
+    }
+
+
+    /* Why */
+
+    .tarkarli-page .why-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+
+    .tarkarli-page .why-grid .feature-card {
+
+        min-height: 175px;
+    }
+
+
+    /* CTA */
+
+    .tarkarli-page .cta-section {
+
+        padding: 65px 20px;
+    }
+
+
+    .tarkarli-page .cta-section h2 {
+
+        font-size: 27px;
+    }
+
+
+    .tarkarli-page .cta-section p {
+
+        font-size: 14px;
+    }
+
+
+    /* Floating buttons */
+
+    .tarkarli-page .floating-contact {
+
+        right: 10px;
+
+        bottom: 15px;
+    }
+
+}
