@@ -4170,3 +4170,39 @@ text-transform:uppercase;
 .section-title{
     margin-bottom:20px;
 }
+/*==================================
+  POPULAR ACTIVITIES
+==================================*/
+
+.activities-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:20px;
+}
+
+.activities-grid .feature-card{
+    width:100%;
+    height:100%;
+}
+
+
+/* TABLET */
+
+@media(max-width:900px){
+
+    .activities-grid{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+}
+
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    .activities-grid{
+        grid-template-columns:1fr;
+    }
+
+}
