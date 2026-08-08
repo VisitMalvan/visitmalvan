@@ -3381,6 +3381,14 @@ background:#fff;
     background:#fff;
 }
 
+.why-us-section .section-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    margin-top:30px;
+}
+
 .cta-section{
     padding:100px 20px;
     background:#0a6d83;
