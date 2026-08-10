@@ -1,1 +1,1301 @@
+/* =========================================================
+   DEVBAGH PAGE
+   All styles are scoped to .devbagh-page
+   ========================================================= */
 
+
+/* =========================================================
+   GENERAL
+   ========================================================= */
+
+.devbagh-page {
+    overflow-x: hidden;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.devbagh-page .devbagh-hero {
+
+    position: relative;
+
+    min-height: 680px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    color: #fff;
+
+    overflow: hidden;
+
+    background-image:
+        url("../images/Devbagh-Beach.jpg");
+
+    background-position: center center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+
+/* Overlay */
+
+.devbagh-page .devbagh-hero .hero-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    z-index: 1;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0,0,0,0.30),
+            rgba(0,0,0,0.68)
+        );
+}
+
+
+/* Container */
+
+.devbagh-page .devbagh-hero .container {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+}
+
+
+/* Hero content */
+
+.devbagh-page .devbagh-hero .hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: min(92%, 900px);
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+/* Badge */
+
+.devbagh-page .devbagh-hero .hero-badge {
+
+    display: inline-block;
+
+    padding: 9px 18px;
+
+    margin-bottom: 20px;
+
+    border:
+        1px solid
+        rgba(255,255,255,0.30);
+
+    border-radius: 40px;
+
+    background:
+        rgba(255,255,255,0.14);
+
+    backdrop-filter: blur(10px);
+
+    color: #fff;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+
+/* Heading */
+
+.devbagh-page .devbagh-hero h1 {
+
+    margin: 0 0 15px;
+
+    color: #fff;
+
+    font-size:
+        clamp(42px, 5vw, 64px);
+
+    line-height: 1.05;
+
+    font-weight: 800;
+}
+
+
+.devbagh-page .devbagh-hero h1 span {
+
+    display: block;
+
+    color: #FFD166;
+}
+
+
+/* Hero description */
+
+.devbagh-page .devbagh-hero .hero-sub {
+
+    max-width: 760px;
+
+    margin: 0 auto 25px;
+
+    color: #fff;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+.devbagh-page .devbagh-hero .hero-sub strong {
+
+    display: block;
+
+    margin-bottom: 6px;
+
+    font-weight: 700;
+}
+
+
+/* Hero service pills */
+
+.devbagh-page .devbagh-hero .hero-services {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin: 0 auto 25px;
+}
+
+
+.devbagh-page .devbagh-hero .hero-services span {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    padding: 8px 13px;
+
+    border:
+        1px solid
+        rgba(255,255,255,0.25);
+
+    border-radius: 50px;
+
+    background:
+        rgba(255,255,255,0.12);
+
+    backdrop-filter: blur(10px);
+
+    color: #fff;
+
+    font-size: 12px;
+
+    font-weight: 500;
+}
+
+
+/* Hero buttons */
+
+.devbagh-page .devbagh-hero .hero-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin: 0;
+}
+
+
+
+/* =========================================================
+   SECTION COMMON
+   ========================================================= */
+
+.devbagh-page .section-label {
+
+    display: inline-block;
+
+    margin-bottom: 16px;
+
+    padding: 6px 14px;
+
+    border-radius: 30px;
+
+    background: #eefaff;
+
+    color: #007c96;
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+}
+
+
+.devbagh-page .section-title {
+
+    margin: 0 0 18px;
+
+    color: #00758c;
+
+    text-align: center;
+
+    font-size: 32px;
+
+    line-height: 1.2;
+
+    font-weight: 800;
+}
+
+
+.devbagh-page .section-subtitle {
+
+    max-width: 720px;
+
+    margin: 0 auto 35px;
+
+    color: #666;
+
+    text-align: center;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+}
+
+
+.devbagh-page .section-description {
+
+    max-width: 760px;
+
+    margin: 0 auto 25px;
+
+    color: #666;
+
+    text-align: center;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+
+
+/* =========================================================
+   WHY VISIT DEVBAGH
+   ========================================================= */
+
+.devbagh-page .devbagh-intro-section {
+
+    padding: 75px 20px 70px;
+
+    background: #fff;
+
+    text-align: center;
+}
+
+
+.devbagh-page .devbagh-highlights {
+
+    max-width: 850px;
+
+    margin: 40px auto 30px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 14px;
+}
+
+
+.devbagh-page .devbagh-highlight {
+
+    min-height: 62px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 12px 20px;
+
+    box-sizing: border-box;
+
+    border:
+        1px solid
+        #dbeaf0;
+
+    border-radius: 8px;
+
+    background: #f5fbfe;
+
+    text-align: left;
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+
+.devbagh-page .devbagh-highlight:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px
+        rgba(0,0,0,0.06);
+}
+
+
+.devbagh-page .devbagh-highlight span {
+
+    width: 34px;
+
+    height: 34px;
+
+    flex: 0 0 34px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #087e96;
+
+    color: #fff;
+
+    font-size: 16px;
+}
+
+
+.devbagh-page .devbagh-highlight strong {
+
+    color: #333;
+
+    font-size: 14px;
+}
+
+
+.devbagh-page .devbagh-section-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 25px;
+}
+
+
+
+/* =========================================================
+   TOP ATTRACTIONS
+   ========================================================= */
+
+.devbagh-page .devbagh-attractions-section {
+
+    padding: 75px 20px 85px;
+
+    background: #f4f8fa;
+}
+
+
+.devbagh-page .devbagh-attractions-section
+.section-label {
+
+    display: block;
+
+    width: fit-content;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+
+.devbagh-page .devbagh-attractions-grid {
+
+    max-width: 1050px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+
+/* Attraction card */
+
+.devbagh-page .devbagh-attraction-card {
+
+    position: relative;
+
+    height: 330px;
+
+    overflow: hidden;
+
+    border-radius: 9px;
+
+    background: #111;
+
+    box-shadow:
+        0 8px 20px
+        rgba(0,0,0,0.12);
+}
+
+
+.devbagh-page .devbagh-attraction-card img {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition:
+        transform .5s ease;
+}
+
+
+.devbagh-page .devbagh-attraction-card:hover img {
+
+    transform: scale(1.05);
+}
+
+
+/* Card gradient */
+
+.devbagh-page .devbagh-card-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    padding: 22px;
+
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            to bottom,
+            transparent 30%,
+            rgba(0,0,0,0.80) 100%
+        );
+
+    color: #fff;
+}
+
+
+.devbagh-page .card-location {
+
+    align-self: flex-start;
+
+    margin-bottom: 8px;
+
+    padding: 5px 10px;
+
+    border-radius: 30px;
+
+    background:
+        rgba(255,255,255,0.20);
+
+    backdrop-filter: blur(5px);
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+
+.devbagh-page .devbagh-card-overlay h3 {
+
+    margin: 0 0 8px;
+
+    color: #fff;
+
+    font-size: 22px;
+
+    line-height: 1.15;
+}
+
+
+.devbagh-page .devbagh-card-overlay p {
+
+    margin: 0 0 12px;
+
+    color: rgba(255,255,255,0.92);
+
+    font-size: 12px;
+
+    line-height: 1.5;
+}
+
+
+.devbagh-page .card-explore {
+
+    align-self: flex-start;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 7px 15px;
+
+    border-radius: 20px;
+
+    background: #ff7a00;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    transition: .25s ease;
+}
+
+
+.devbagh-page .card-explore:hover {
+
+    background: #e96d00;
+
+    transform: translateY(-2px);
+}
+
+
+
+/* =========================================================
+   POPULAR ACTIVITIES
+   ========================================================= */
+
+.devbagh-page .devbagh-activities-section {
+
+    padding: 70px 20px 85px;
+
+    background: #f4f8fa;
+}
+
+
+.devbagh-page .devbagh-activities-grid {
+
+    max-width: 1050px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+}
+
+
+.devbagh-page .devbagh-activity-card {
+
+    min-height: 210px;
+
+    padding: 30px 22px;
+
+    box-sizing: border-box;
+
+    background: #fff;
+
+    text-align: center;
+
+    border-right:
+        1px solid #eee;
+
+    box-shadow:
+        0 6px 18px
+        rgba(0,0,0,0.07);
+}
+
+
+.devbagh-page .devbagh-activity-card:first-child {
+
+    border-radius: 10px 0 0 10px;
+}
+
+
+.devbagh-page .devbagh-activity-card:last-child {
+
+    border-radius: 0 10px 10px 0;
+
+    border-right: none;
+}
+
+
+.devbagh-page .devbagh-activity-card span {
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-size: 30px;
+}
+
+
+.devbagh-page .devbagh-activity-card h3 {
+
+    margin: 0 0 12px;
+
+    color: #00758c;
+
+    font-size: 18px;
+}
+
+
+.devbagh-page .devbagh-activity-card p {
+
+    margin: 0;
+
+    color: #666;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+
+/* =========================================================
+   WHY CHOOSE VISITMALVAN
+   ========================================================= */
+
+.devbagh-page .devbagh-why-section {
+
+    padding: 75px 20px 80px;
+
+    background: #fff;
+
+    text-align: center;
+}
+
+
+.devbagh-page .devbagh-why-section
+.section-label {
+
+    display: block;
+
+    max-width: 760px;
+
+    margin:
+        0 auto 18px;
+}
+
+
+.devbagh-page .devbagh-why-grid {
+
+    max-width: 1050px;
+
+    margin: 40px auto 0;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 18px;
+}
+
+
+.devbagh-page .devbagh-why-card {
+
+    padding: 28px 20px;
+
+    border-radius: 10px;
+
+    background: #fff;
+
+    box-shadow:
+        0 5px 18px
+        rgba(0,0,0,0.08);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+
+.devbagh-page .devbagh-why-card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 10px 25px
+        rgba(0,0,0,0.12);
+}
+
+
+.devbagh-page .devbagh-why-card > span {
+
+    width: 54px;
+
+    height: 54px;
+
+    margin:
+        0 auto 18px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #0ca9e8;
+
+    font-size: 22px;
+}
+
+
+.devbagh-page .devbagh-why-card h3 {
+
+    margin: 0 0 12px;
+
+    color: #00758c;
+
+    font-size: 17px;
+}
+
+
+.devbagh-page .devbagh-why-card p {
+
+    margin: 0;
+
+    color: #666;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+
+/* =========================================================
+   CTA
+   ========================================================= */
+
+.devbagh-page .devbagh-cta-section {
+
+    padding: 80px 20px;
+
+    background: #0b7d90;
+
+    color: #fff;
+
+    text-align: center;
+}
+
+
+.devbagh-page .devbagh-cta-section h2 {
+
+    margin: 0 0 15px;
+
+    color: #fff;
+
+    font-size: 34px;
+}
+
+
+.devbagh-page .devbagh-cta-section p {
+
+    max-width: 700px;
+
+    margin: 0 auto 25px;
+
+    color: rgba(255,255,255,0.92);
+
+    font-size: 15px;
+
+    line-height: 1.6;
+}
+
+
+.devbagh-page .devbagh-cta-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+
+    /* HERO */
+
+    .devbagh-page .devbagh-hero {
+
+        min-height: 650px;
+
+        padding: 55px 0 45px;
+
+        box-sizing: border-box;
+
+        background-position: center center;
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-overlay {
+
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(0,0,0,0.40),
+                rgba(0,0,0,0.72)
+            );
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-content {
+
+        width: min(92%, 390px);
+
+        max-width: 390px;
+
+        margin: auto;
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-badge {
+
+        margin-bottom: 15px;
+
+        padding: 7px 12px;
+
+        font-size: 9px;
+    }
+
+
+    .devbagh-page .devbagh-hero h1 {
+
+        margin-bottom: 12px;
+
+        font-size: 40px;
+
+        line-height: 1.02;
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-sub {
+
+        max-width: 350px;
+
+        margin-bottom: 18px;
+
+        font-size: 13px;
+
+        line-height: 1.55;
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-sub strong {
+
+        margin-bottom: 7px;
+
+        font-size: 14px;
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-services {
+
+        max-width: 350px;
+
+        gap: 6px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-services span {
+
+        padding: 6px 9px;
+
+        font-size: 9px;
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-buttons {
+
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+
+    .devbagh-page .devbagh-hero
+    .hero-buttons .header-btn {
+
+        width: 185px;
+
+        min-width: 185px;
+
+        height: 42px;
+
+        font-size: 13px;
+    }
+
+
+
+    /* COMMON */
+
+    .devbagh-page .section-title {
+
+        font-size: 26px;
+    }
+
+
+    .devbagh-page .section-subtitle {
+
+        font-size: 13px;
+
+        line-height: 1.6;
+    }
+
+
+    .devbagh-page .section-description {
+
+        font-size: 14px;
+
+        line-height: 1.7;
+    }
+
+
+
+    /* WHY VISIT */
+
+    .devbagh-page .devbagh-intro-section {
+
+        padding:
+            55px 15px 55px;
+    }
+
+
+    .devbagh-page .devbagh-highlights {
+
+        grid-template-columns: 1fr;
+
+        gap: 9px;
+
+        margin-top: 30px;
+    }
+
+
+    .devbagh-page .devbagh-highlight {
+
+        min-height: 52px;
+
+        padding: 9px 13px;
+    }
+
+
+    .devbagh-page .devbagh-highlight strong {
+
+        font-size: 12px;
+    }
+
+
+    .devbagh-page .devbagh-section-buttons {
+
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+
+    .devbagh-page .devbagh-section-buttons
+    .header-btn {
+
+        width: 180px;
+
+        min-width: 180px;
+
+        height: 42px;
+
+        font-size: 12px;
+    }
+
+
+
+    /* ATTRACTIONS */
+
+    .devbagh-page .devbagh-attractions-section {
+
+        padding:
+            55px 15px 60px;
+    }
+
+
+    .devbagh-page .devbagh-attractions-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 14px;
+
+        width: 100%;
+
+        max-width: 390px;
+    }
+
+
+    .devbagh-page .devbagh-attraction-card {
+
+        height: 270px;
+    }
+
+
+    .devbagh-page .devbagh-card-overlay {
+
+        padding: 18px;
+    }
+
+
+    .devbagh-page .devbagh-card-overlay h3 {
+
+        font-size: 20px;
+    }
+
+
+    .devbagh-page .devbagh-card-overlay p {
+
+        font-size: 11px;
+    }
+
+
+
+    /* ACTIVITIES */
+
+    .devbagh-page .devbagh-activities-section {
+
+        padding:
+            55px 15px 60px;
+    }
+
+
+    .devbagh-page .devbagh-activities-grid {
+
+        grid-template-columns: 1fr;
+
+        max-width: 390px;
+    }
+
+
+    .devbagh-page .devbagh-activity-card {
+
+        min-height: 175px;
+
+        border-right: none;
+
+        border-bottom:
+            1px solid #eee;
+
+        border-radius: 0 !important;
+    }
+
+
+    .devbagh-page .devbagh-activity-card:first-child {
+
+        border-radius:
+            10px 10px 0 0 !important;
+    }
+
+
+    .devbagh-page .devbagh-activity-card:last-child {
+
+        border-bottom: none;
+
+        border-radius:
+            0 0 10px 10px !important;
+    }
+
+
+
+    /* WHY CHOOSE */
+
+    .devbagh-page .devbagh-why-section {
+
+        padding:
+            55px 15px 60px;
+    }
+
+
+    .devbagh-page .devbagh-why-grid {
+
+        grid-template-columns: 1fr;
+
+        max-width: 390px;
+
+        gap: 14px;
+
+        margin-top: 30px;
+    }
+
+
+    .devbagh-page .devbagh-why-card {
+
+        padding: 25px 18px;
+    }
+
+
+
+    /* CTA */
+
+    .devbagh-page .devbagh-cta-section {
+
+        padding:
+            60px 15px;
+    }
+
+
+    .devbagh-page .devbagh-cta-section h2 {
+
+        font-size: 27px;
+    }
+
+
+    .devbagh-page .devbagh-cta-section p {
+
+        font-size: 13px;
+    }
+
+
+    .devbagh-page .devbagh-cta-buttons {
+
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+
+    .devbagh-page .devbagh-cta-buttons
+    .header-btn {
+
+        width: 180px;
+
+        min-width: 180px;
+
+        height: 42px;
+
+        font-size: 12px;
+    }
+
+}
+
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+
+    .devbagh-page .devbagh-hero {
+
+        min-height: 620px;
+    }
+
+
+    .devbagh-page .devbagh-hero h1 {
+
+        font-size: 36px;
+    }
+
+
+    .devbagh-page .devbagh-hero .hero-sub {
+
+        font-size: 12px;
+    }
+
+
+    .devbagh-page .devbagh-hero
+    .hero-services span {
+
+        font-size: 8px;
+
+        padding: 5px 8px;
+    }
+
+
+    .devbagh-page .devbagh-attraction-card {
+
+        height: 250px;
+    }
+
+}
