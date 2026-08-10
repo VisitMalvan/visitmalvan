@@ -9,118 +9,355 @@
 
 /* =========================================================
    TARKARLI HERO
-   ========================================================= */
+========================================================= */
 
 .tarkarli-page .tarkarli-hero {
     position: relative;
     min-height: 680px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     text-align: center;
     color: #fff;
+
     overflow: hidden;
-    background: url("../images/Tarkarli-Beach.jpg") center center / cover no-repeat;
+
+    background-image: url("../images/Tarkarli-Beach.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
+/* Dark overlay */
 
 .tarkarli-page .tarkarli-hero .hero-overlay {
     position: absolute;
     inset: 0;
+
     z-index: 1;
-    background: linear-gradient(
-        to bottom,
-        rgba(0,0,0,.34),
-        rgba(0,0,0,.62)
-    );
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0,0,0,0.30),
+            rgba(0,0,0,0.68)
+        );
 }
+
+
+/* Container */
 
 .tarkarli-page .tarkarli-hero .container {
     position: relative;
     z-index: 2;
+
     width: 100%;
 }
+
+
+/* Hero content */
 
 .tarkarli-page .tarkarli-hero .hero-content {
     position: relative;
     z-index: 2;
+
     width: min(92%, 900px);
+
     margin: 0 auto;
+
     text-align: center;
 }
 
+
+/* Badge */
+
 .tarkarli-page .tarkarli-hero .hero-badge {
     display: inline-block;
+
     padding: 9px 18px;
+
     margin-bottom: 20px;
-    border: 1px solid rgba(255,255,255,.28);
+
+    border: 1px solid rgba(255,255,255,0.30);
+
     border-radius: 40px;
-    background: rgba(255,255,255,.14);
+
+    background: rgba(255,255,255,0.14);
+
     backdrop-filter: blur(10px);
+
     color: #fff;
+
     font-size: 12px;
     font-weight: 600;
 }
 
+
+/* Main heading */
+
 .tarkarli-page .tarkarli-hero h1 {
     margin: 0 0 15px;
+
     color: #fff;
+
     font-size: clamp(42px, 5vw, 64px);
+
     line-height: 1.05;
+
     font-weight: 800;
 }
 
+
+/* Tarkarli in yellow */
+
 .tarkarli-page .tarkarli-hero h1 span {
     display: block;
+
     color: #FFD166;
 }
 
+
+/* Description */
+
 .tarkarli-page .tarkarli-hero .hero-sub {
     max-width: 760px;
+
     margin: 0 auto 25px;
+
     color: #fff;
+
     font-size: 17px;
+
     line-height: 1.7;
 }
 
+
 .tarkarli-page .tarkarli-hero .hero-sub strong {
+    display: block;
+
+    margin-bottom: 6px;
+
     font-weight: 700;
 }
 
+
+/* Service pills */
+
 .tarkarli-page .tarkarli-hero .hero-services {
+
     display: flex;
+
     justify-content: center;
+
     align-items: center;
+
     flex-wrap: wrap;
+
     gap: 8px;
+
     margin: 0 auto 25px;
 }
 
+
 .tarkarli-page .tarkarli-hero .hero-services span {
+
     display: inline-flex;
+
     align-items: center;
+
     gap: 6px;
+
     padding: 8px 13px;
-    border: 1px solid rgba(255,255,255,.25);
+
+    border: 1px solid rgba(255,255,255,0.25);
+
     border-radius: 50px;
-    background: rgba(255,255,255,.12);
+
+    background: rgba(255,255,255,0.12);
+
     backdrop-filter: blur(10px);
+
     color: #fff;
+
     font-size: 12px;
+
     font-weight: 500;
 }
 
-.tarkarli-page .tarkarli-hero .hero-buttons,
-.tarkarli-page .section-buttons,
-.tarkarli-page .cta-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-}
+
+/* Hero buttons */
 
 .tarkarli-page .tarkarli-hero .hero-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
     margin: 0;
+}
+
+
+/* =========================================================
+   HERO MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .tarkarli-page .tarkarli-hero {
+
+        min-height: 650px;
+
+        padding: 55px 0 45px;
+
+        box-sizing: border-box;
+
+        background-position: center center;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-overlay {
+
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(0,0,0,0.40),
+                rgba(0,0,0,0.72)
+            );
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-content {
+
+        width: min(92%, 390px);
+
+        max-width: 390px;
+
+        margin: auto;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-badge {
+
+        margin-bottom: 15px;
+
+        padding: 7px 12px;
+
+        font-size: 9px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero h1 {
+
+        margin-bottom: 12px;
+
+        font-size: 40px;
+
+        line-height: 1.02;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-sub {
+
+        max-width: 350px;
+
+        margin-bottom: 18px;
+
+        font-size: 13px;
+
+        line-height: 1.55;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-sub strong {
+
+        display: block;
+
+        margin-bottom: 7px;
+
+        font-size: 14px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-services {
+
+        max-width: 350px;
+
+        gap: 6px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-services span {
+
+        padding: 6px 9px;
+
+        font-size: 9px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-buttons {
+
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-buttons .header-btn {
+
+        width: 185px;
+
+        min-width: 185px;
+
+        height: 42px;
+
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .tarkarli-page .tarkarli-hero {
+
+        min-height: 620px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero h1 {
+
+        font-size: 36px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-sub {
+
+        font-size: 12px;
+    }
+
+
+    .tarkarli-page .tarkarli-hero .hero-services span {
+
+        font-size: 8px;
+
+        padding: 5px 8px;
+    }
+
 }
 
 /* =========================================================
