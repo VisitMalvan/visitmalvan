@@ -840,37 +840,6 @@
     }
 
 
-    /* EXPERT */
-
-    .malvan-expert-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .malvan-expert-image {
-        max-width: 330px;
-        margin: 0 auto;
-    }
-
-    .malvan-expert-content {
-        text-align: center;
-    }
-
-    .malvan-expert-content h2 {
-        font-size: 25px;
-    }
-
-    .malvan-expert-content ul {
-        text-align: left;
-        max-width: 280px;
-        margin: 20px auto;
-    }
-
-    .malvan-expert-buttons {
-        justify-content: center;
-    }
-
-
     /* FAQ */
 
     .malvan-faq summary {
