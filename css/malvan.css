@@ -564,59 +564,7 @@
 }
 
 
-/* ---------------------------------------------------------
-   LOCAL EXPERT
---------------------------------------------------------- */
 
-.malvan-expert {
-    background: #f4f8fa;
-}
-
-.malvan-expert-grid {
-    display: grid;
-    grid-template-columns: 380px 1fr;
-    gap: 60px;
-    align-items: center;
-    max-width: 950px;
-    margin: 0 auto;
-}
-
-.malvan-expert-image img {
-    width: 100%;
-    max-height: 420px;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
-}
-
-.malvan-expert-content h2 {
-    color: #007b92;
-    font-size: 30px;
-    margin: 12px 0 15px;
-}
-
-.malvan-expert-content p {
-    color: #555;
-    line-height: 1.7;
-    font-size: 14px;
-}
-
-.malvan-expert-content ul {
-    padding: 0;
-    margin: 20px 0;
-    list-style: none;
-}
-
-.malvan-expert-content li {
-    margin: 8px 0;
-    color: #333;
-    font-size: 13px;
-}
-
-.malvan-expert-buttons {
-    justify-content: flex-start;
-}
 
 
 /* ---------------------------------------------------------
