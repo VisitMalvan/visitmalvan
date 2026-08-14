@@ -1,0 +1,497 @@
+/* =========================================================
+   SINDHUDURG FORT PAGE
+   Page-specific stylesheet
+========================================================= */
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.sindhudurg-hero {
+    position: relative;
+    min-height: 520px;
+    background-image: url("../images/sindhudurg-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sindhudurg-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            rgba(0, 35, 50, 0.55),
+            rgba(0, 20, 30, 0.70)
+        );
+}
+
+.sindhudurg-hero .container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.sindhudurg-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 90px 20px 70px;
+}
+
+.sindhudurg-badge {
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.16);
+    border: 1px solid rgba(255,255,255,0.25);
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.sindhudurg-hero h1 {
+    margin: 0;
+    font-size: clamp(42px, 6vw, 70px);
+    line-height: 1.05;
+    font-weight: 800;
+}
+
+.sindhudurg-hero h1 span {
+    display: block;
+    color: #ffc43d;
+}
+
+.sindhudurg-hero .hero-tagline {
+    max-width: 650px;
+    margin: 22px auto;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fff;
+}
+
+.sindhudurg-tags {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 20px 0 25px;
+}
+
+.sindhudurg-tags span {
+    padding: 7px 13px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.25);
+    font-size: 12px;
+}
+
+.sindhudurg-tags i {
+    margin-right: 5px;
+}
+
+
+/* =========================================================
+   GENERAL SECTIONS
+========================================================= */
+
+.sindhudurg-intro,
+.sindhudurg-highlights,
+.sindhudurg-attractions,
+.sindhudurg-activities,
+.sindhudurg-why {
+    padding: 85px 20px;
+}
+
+.sindhudurg-intro {
+    background: #fff;
+    text-align: center;
+}
+
+.sindhudurg-highlights,
+.sindhudurg-activities {
+    background: #f4f9fb;
+}
+
+.sindhudurg-attractions,
+.sindhudurg-why {
+    background: #fff;
+}
+
+.sindhudurg-intro .container,
+.sindhudurg-highlights .container,
+.sindhudurg-attractions .container,
+.sindhudurg-activities .container,
+.sindhudurg-why .container {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.sindhudurg-intro h2,
+.sindhudurg-highlights h2,
+.sindhudurg-attractions h2,
+.sindhudurg-activities h2,
+.sindhudurg-why h2 {
+    color: #087c92;
+    text-align: center;
+    font-size: 32px;
+    margin: 12px 0 20px;
+}
+
+.section-label {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 16px;
+    border-radius: 20px;
+    background: #e8f8fc;
+    color: #087c92;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.section-subtitle {
+    max-width: 680px;
+    margin: 0 auto 35px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.sindhudurg-intro p {
+    max-width: 800px;
+    margin: 12px auto;
+    color: #666;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   HIGHLIGHTS
+========================================================= */
+
+.sindhudurg-highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 40px;
+}
+
+.sindhudurg-highlight-card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+    transition: transform 0.25s ease;
+}
+
+.sindhudurg-highlight-card:hover {
+    transform: translateY(-5px);
+}
+
+.highlight-icon {
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: #079bd8;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.sindhudurg-highlight-card h3 {
+    margin: 8px 0;
+    color: #087c92;
+    font-size: 17px;
+}
+
+.sindhudurg-highlight-card p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   NEARBY ATTRACTIONS
+========================================================= */
+
+.sindhudurg-attraction-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.sindhudurg-attraction-card {
+    position: relative;
+    height: 280px;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 7px 20px rgba(0,0,0,0.12);
+}
+
+.sindhudurg-attraction-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.sindhudurg-attraction-card:hover img {
+    transform: scale(1.06);
+}
+
+.attraction-overlay {
+    position: absolute;
+    inset: 0;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    background:
+        linear-gradient(
+            transparent 25%,
+            rgba(0,0,0,0.82) 100%
+        );
+}
+
+.attraction-overlay h3 {
+    margin: 0 0 7px;
+    font-size: 22px;
+}
+
+.attraction-overlay p {
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.attraction-overlay span {
+    width: fit-content;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: #ff7800;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   ACTIVITIES
+========================================================= */
+
+.sindhudurg-activity-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 40px;
+}
+
+.sindhudurg-activity-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 28px 20px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+}
+
+.activity-icon {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.sindhudurg-activity-card h3 {
+    color: #087c92;
+    margin: 8px 0;
+    font-size: 17px;
+}
+
+.sindhudurg-activity-card p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   WHY VISITMALVAN
+========================================================= */
+
+.sindhudurg-why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 40px;
+}
+
+.sindhudurg-why-card {
+    padding: 28px 20px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+}
+
+.why-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 14px;
+    border-radius: 50%;
+    background: #079bd8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.sindhudurg-why-card h3 {
+    color: #087c92;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.sindhudurg-why-card p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.sindhudurg-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.sindhudurg-cta {
+    padding: 80px 20px;
+    background: #0b8194;
+    text-align: center;
+    color: #fff;
+}
+
+.sindhudurg-cta h2 {
+    margin: 0 0 15px;
+    font-size: 34px;
+    color: #fff;
+}
+
+.sindhudurg-cta p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+    color: #fff;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .sindhudurg-highlight-grid,
+    .sindhudurg-activity-grid,
+    .sindhudurg-why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sindhudurg-attraction-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .sindhudurg-hero {
+        min-height: 520px;
+    }
+
+    .sindhudurg-hero-content {
+        padding: 80px 15px 55px;
+    }
+
+    .sindhudurg-hero h1 {
+        font-size: 40px;
+    }
+
+    .sindhudurg-hero .hero-tagline {
+        font-size: 14px;
+    }
+
+    .sindhudurg-tags {
+        gap: 6px;
+    }
+
+    .sindhudurg-tags span {
+        font-size: 10px;
+        padding: 6px 9px;
+    }
+
+    .sindhudurg-intro,
+    .sindhudurg-highlights,
+    .sindhudurg-attractions,
+    .sindhudurg-activities,
+    .sindhudurg-why {
+        padding: 60px 15px;
+    }
+
+    .sindhudurg-intro h2,
+    .sindhudurg-highlights h2,
+    .sindhudurg-attractions h2,
+    .sindhudurg-activities h2,
+    .sindhudurg-why h2 {
+        font-size: 26px;
+    }
+
+    .sindhudurg-highlight-grid,
+    .sindhudurg-attraction-grid,
+    .sindhudurg-activity-grid,
+    .sindhudurg-why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sindhudurg-attraction-card {
+        height: 240px;
+    }
+
+    .sindhudurg-cta {
+        padding: 60px 15px;
+    }
+
+    .sindhudurg-cta h2 {
+        font-size: 28px;
+    }
+
+}
