@@ -474,6 +474,238 @@
 
 </section>
 
+ <!-- ==========================================
+     DESTINATION WEDDING ENQUIRY FORM
+=========================================== -->
+
+<section class="wedding-enquiry-section" id="wedding-enquiry">
+
+    <div class="container">
+
+        <div class="wedding-enquiry-heading">
+            <span class="section-label">LET'S PLAN TOGETHER</span>
+
+            <h2>Plan Your Dream Wedding in Malvan</h2>
+
+            <p>
+                Tell us a little about your wedding plans. Our local team
+                will help you explore beautiful venues, comfortable stays,
+                catering, decoration and other arrangements in Malvan,
+                Tarkarli and Devbagh.
+            </p>
+        </div>
+
+        <div class="wedding-form-wrapper">
+
+            <form id="weddingEnquiryForm"
+                  action="https://formspree.io/f/mwllowep"
+                  method="POST">
+
+                <input type="hidden"
+                       name="_subject"
+                       value="New Destination Wedding Enquiry - VisitMalvan">
+
+                <div class="wedding-form-grid">
+
+                    <div class="wedding-form-field">
+                        <label for="brideName">Bride's Name *</label>
+                        <input type="text"
+                               id="brideName"
+                               name="Bride's Name"
+                               autocomplete="name"
+                               required>
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="groomName">Groom's Name *</label>
+                        <input type="text"
+                               id="groomName"
+                               name="Groom's Name"
+                               required>
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="weddingPhone">Contact Number *</label>
+                        <input type="tel"
+                               id="weddingPhone"
+                               name="Contact Number"
+                               autocomplete="tel"
+                               pattern="[+]?[0-9 ()-]{8,20}"
+                               required>
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="weddingEmail">Email Address</label>
+                        <input type="email"
+                               id="weddingEmail"
+                               name="Email Address"
+                               autocomplete="email">
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="weddingDate">Preferred Wedding Date *</label>
+                        <input type="date"
+                               id="weddingDate"
+                               name="Preferred Wedding Date"
+                               required>
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="dateFlexible">Is Your Date Flexible?</label>
+                        <select id="dateFlexible" name="Date Flexibility">
+                            <option value="">Please select</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                            <option value="Not decided">Not decided</option>
+                        </select>
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="guestCount">Expected Number of Guests *</label>
+                        <input type="number"
+                               id="guestCount"
+                               name="Expected Guests"
+                               min="1"
+                               max="5000"
+                               required>
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="weddingVenue">Preferred Venue</label>
+                        <select id="weddingVenue" name="Preferred Venue">
+                            <option value="">Please select</option>
+                            <option value="Beachside">Beachside</option>
+                            <option value="Resort">Resort</option>
+                            <option value="Homestay">Homestay</option>
+                            <option value="Open lawn or garden">Open lawn or garden</option>
+                            <option value="Need suggestions">Need suggestions</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="accommodation">Guest Accommodation Required?</label>
+                        <select id="accommodation" name="Guest Accommodation">
+                            <option value="">Please select</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                            <option value="Need guidance">Need guidance</option>
+                        </select>
+                    </div>
+
+                    <div class="wedding-form-field">
+                        <label for="weddingBudget">Estimated Budget</label>
+                        <select id="weddingBudget" name="Estimated Budget">
+                            <option value="">Please select</option>
+                            <option value="Below ₹3 lakh">Below ₹3 lakh</option>
+                            <option value="₹3–5 lakh">₹3–5 lakh</option>
+                            <option value="₹5–10 lakh">₹5–10 lakh</option>
+                            <option value="₹10–20 lakh">₹10–20 lakh</option>
+                            <option value="Above ₹20 lakh">Above ₹20 lakh</option>
+                            <option value="Not decided">Not decided</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <fieldset class="wedding-services-fieldset">
+
+                    <legend>Which Services Do You Need?</legend>
+
+                    <div class="wedding-services-grid">
+
+                        <label>
+                            <input type="checkbox" name="Services Required" value="Venue Selection">
+                            Venue Selection
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="Services Required" value="Guest Accommodation">
+                            Guest Accommodation
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="Services Required" value="Decoration and Setup">
+                            Decoration & Setup
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="Services Required" value="Food and Catering">
+                            Food & Catering
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="Services Required" value="Photography and Videography">
+                            Photography & Videography
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="Services Required" value="Guest Transport">
+                            Guest Transport
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="Services Required" value="Wedding Ceremony Arrangements">
+                            Wedding Ceremony Arrangements
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="Services Required" value="Complete Wedding Planning">
+                            Complete Wedding Planning
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+                <div class="wedding-form-field wedding-message-field">
+
+                    <label for="weddingMessage">
+                        Additional Requirements or Questions
+                    </label>
+
+                    <textarea id="weddingMessage"
+                              name="Additional Requirements"
+                              rows="5"
+                              placeholder="Tell us about your wedding plans, preferred location or any special requirements..."></textarea>
+
+                </div>
+
+                <p class="wedding-form-note">
+                    * Required fields. We will use your details to respond
+                    to your wedding enquiry.
+                </p>
+
+                <div class="wedding-form-actions">
+
+                    <button type="submit" class="wedding-submit-btn">
+                        Submit Wedding Enquiry
+                    </button>
+
+                    <a href="https://wa.me/917776000251?text=Hello%20VisitMalvan%2C%20I%20would%20like%20to%20enquire%20about%20a%20destination%20wedding."
+                       class="wedding-whatsapp-btn"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Enquire on WhatsApp
+                    </a>
+
+                </div>
+
+                <p id="weddingFormStatus"
+                   class="wedding-form-status"
+                   role="status"
+                   aria-live="polite"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- END DESTINATION WEDDING ENQUIRY FORM -->   
 
 <!-- =====================================================
      WHY CHOOSE VISITMALVAN
