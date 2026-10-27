@@ -905,3 +905,303 @@
     }
 
 }
+
+/* ==========================================
+   DESTINATION WEDDING ENQUIRY FORM
+========================================== */
+
+.wedding-enquiry-section {
+    padding: 80px 20px;
+    background: #f2f8fa;
+    scroll-margin-top: 90px;
+}
+
+.wedding-enquiry-heading {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.wedding-enquiry-heading .section-label {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 7px 15px;
+    border-radius: 30px;
+    background: #e0f5fa;
+    color: #087f98;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.wedding-enquiry-heading h2 {
+    margin: 10px 0 15px;
+    color: #087f98;
+    font-size: clamp(26px, 4vw, 38px);
+    line-height: 1.3;
+}
+
+.wedding-enquiry-heading p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #5c6870;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* FORM CARD */
+
+.wedding-form-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 38px;
+    background: #ffffff;
+    border: 1px solid #e7eef1;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(15, 50, 65, 0.08);
+}
+
+#weddingEnquiryForm {
+    width: 100%;
+}
+
+.wedding-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 22px;
+}
+
+.wedding-form-field {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.wedding-form-field label,
+.wedding-services-fieldset legend {
+    margin-bottom: 9px;
+    color: #173746;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.wedding-form-field input,
+.wedding-form-field select,
+.wedding-form-field textarea {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 14px;
+    border: 1px solid #d6e1e6;
+    border-radius: 8px;
+    outline: none;
+    background: #ffffff;
+    color: #263b45;
+    font-family: inherit;
+    font-size: 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wedding-form-field textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.wedding-form-field input:focus,
+.wedding-form-field select:focus,
+.wedding-form-field textarea:focus {
+    border-color: #0789a3;
+    box-shadow: 0 0 0 3px rgba(7, 137, 163, 0.12);
+}
+
+.wedding-form-field input::placeholder,
+.wedding-form-field textarea::placeholder {
+    color: #8b989f;
+}
+
+/* SERVICES CHECKBOXES */
+
+.wedding-services-fieldset {
+    min-width: 0;
+    margin: 32px 0;
+    padding: 22px;
+    border: 1px solid #e0e9ed;
+    border-radius: 12px;
+}
+
+.wedding-services-fieldset legend {
+    padding: 0 8px;
+    margin-bottom: 12px;
+    color: #087f98;
+    font-size: 16px;
+}
+
+.wedding-services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.wedding-services-grid label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: #43545d;
+    font-size: 14px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.wedding-services-grid input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    flex: 0 0 17px;
+    margin: 2px 0 0;
+    accent-color: #0789a3;
+    cursor: pointer;
+}
+
+/* ADDITIONAL MESSAGE */
+
+.wedding-message-field {
+    margin-bottom: 20px;
+}
+
+.wedding-form-note {
+    margin: 18px 0;
+    color: #71808a;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+/* ACTION BUTTONS */
+
+.wedding-form-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 26px;
+}
+
+.wedding-submit-btn,
+.wedding-whatsapp-btn {
+    box-sizing: border-box;
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease,
+                background-color 0.2s ease;
+}
+
+.wedding-submit-btn {
+    background: #ff8500;
+    color: #ffffff;
+}
+
+.wedding-submit-btn:hover {
+    background: #e97500;
+    box-shadow: 0 5px 15px rgba(255, 133, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.wedding-whatsapp-btn {
+    background: #20c967;
+    color: #ffffff;
+}
+
+.wedding-whatsapp-btn:hover {
+    background: #18ae57;
+    box-shadow: 0 5px 15px rgba(32, 201, 103, 0.2);
+    transform: translateY(-2px);
+}
+
+.wedding-submit-btn:focus-visible,
+.wedding-whatsapp-btn:focus-visible {
+    outline: 3px solid #087f98;
+    outline-offset: 3px;
+}
+
+.wedding-form-status {
+    margin: 18px 0 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* TABLETS */
+
+@media (max-width: 768px) {
+    .wedding-enquiry-section {
+        padding: 60px 16px;
+    }
+
+    .wedding-form-wrapper {
+        padding: 28px 22px;
+    }
+
+    .wedding-form-grid {
+        gap: 20px 16px;
+    }
+}
+
+/* MOBILE PHONES */
+
+@media (max-width: 540px) {
+    .wedding-enquiry-section {
+        padding: 45px 14px;
+    }
+
+    .wedding-enquiry-heading {
+        margin-bottom: 28px;
+    }
+
+    .wedding-enquiry-heading h2 {
+        font-size: 27px;
+    }
+
+    .wedding-enquiry-heading p {
+        font-size: 14px;
+    }
+
+    .wedding-form-wrapper {
+        padding: 22px 16px;
+        border-radius: 12px;
+    }
+
+    .wedding-form-grid,
+    .wedding-services-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .wedding-form-grid {
+        gap: 19px;
+    }
+
+    .wedding-services-fieldset {
+        padding: 18px 14px;
+        margin: 26px 0;
+    }
+
+    .wedding-form-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .wedding-submit-btn,
+    .wedding-whatsapp-btn {
+        width: 100%;
+        min-height: 50px;
+    }
+}
